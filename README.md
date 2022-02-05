@@ -4,9 +4,11 @@
 
 Passos do Projeto:
 
+
 HTML:
   (x) Fazer a estrutura basica.
+  () Inicirar com a estrutura dos links e do titulo
 
 CSS:
-  () Definir as cores do projeto
+  (x) Definir as cores do projeto
 

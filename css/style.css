@@ -10,7 +10,7 @@
 }
 
 * {
- 
+
     margin    : 0px;
     padding   : 0px;
     box-sizing: border-box;
@@ -45,6 +45,7 @@ header {
 }
 
 .nomeInicio {
+
     margin-left: 340px;
     padding-top: 210px;
     font-size  : 45px;
@@ -60,18 +61,39 @@ header {
 }
 
 .iconesprincipal {
-    display        : flex;
-    
+    display: flex;
+
     justify-content: center;
-   
+
 }
 
 .icones {
-    padding-top: 20px;
-   padding-left: 50px;
+    padding-top : 20px;
+    padding-left: 50px;
 
 }
 
-.icones,git,lin,zap,email {
 
+
+/* 
+              MOVIMENTO DO JS
+
+.tela {
+    background-color: rgb(196, 199, 199);
+    width           : 600px;
+    height          : 600px;
+    margin: 100px;
+    position: relative;
+    overflow: hidden;
 }
+
+.quadrado {
+    background-color: rgb(34, 34, 33);
+    width           : 60px;
+    height          : 60px;
+    position: absolute;
+    top:50px;
+    left:50px;
+}
+
+*/

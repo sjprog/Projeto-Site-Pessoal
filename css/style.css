@@ -77,21 +77,45 @@ main{
     height           : 800px;
     width            : 1280px;
     background-color:#0a0a0a ;
-}
+    padding: 70px;
+    text-align: center;  
+    display: flex;
+}  
 
-main h2{
-    margin-left: 560px;   
-    font-size  : 65px;
-    color      : #990300;
+.fotoPessoal{
+    width: 400px;
+    height: 500px;
+   
+
+}
+.descricao{
+    
+    display: inline-block;
+    text-align: left;
+    color:white;
+   max-width: 60%;
+   margin-left: 40px;
+
+}
+.descricao p, .descricao h2{
+   
+    margin-left: 30px;
+    text-align: left;
+    text-align:justify ;
+}
+.descricao h2{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-size: 35px;
+    color      : #e6e3e3;
     text-shadow: 1px 1px rgb(83, 83, 83);
-}
-
-.sobreInformacoes p{
     
 }
-
-
-
+.descricao p{
+    color: darkgray;
+     text-shadow: 1px 1px rgb(0, 0, 0);
+     font-size: 18px;
+}
 /* 
               MOVIMENTO DO JS
 

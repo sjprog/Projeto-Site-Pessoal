@@ -104,17 +104,24 @@ main{
     text-align:justify ;
 }
 .descricao h2{
-    padding-top: 20px;
-    padding-bottom: 40px;
-    font-size: 35px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    font-size: 30px;
     color      : #e6e3e3;
-    text-shadow: 1px 1px rgb(83, 83, 83);
+    text-shadow: 2px 2px rgb(83, 83, 83);
     
 }
 .descricao p{
     color: darkgray;
      text-shadow: 1px 1px rgb(0, 0, 0);
-     font-size: 18px;
+     font-size: 16px;
+    
+}
+span{
+    font-size:large;
+    padding-right: 70px;    
+    color:rgb(241, 241, 241) ;
+    text-shadow: 1px 1px rgb(93, 93, 93);
 }
 /* 
               MOVIMENTO DO JS

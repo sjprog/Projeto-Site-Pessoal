@@ -10,151 +10,169 @@
 }
 
 * {
-
-    margin    : 0px;
-    padding   : 0px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 body {
-    max-width            : 1280px;
+    max-width: 1280px;
     font-family: Arial, Helvetica, sans-serif;
-    color      : white;
+    color: white;
 }
 
 header {
-    height           : 800px;
-    width            : 1280px;
-    background       : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%), url(../css/assets/fundo04.jpg);
+    height: 800px;
+    width: 1280px;
+    background: linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%), url(../css/assets/fundo04.jpg);
     background-repeat: no-repeat;
-    background-size  : cover;
-
+    background-size: cover;
 }
 
 .links {
-    float       : right;
+    float: right;
     margin-right: 30px;
-    padding     : 30px;
+    padding: 30px;
 }
 
 .links>a {
     text-decoration: none;
-    padding        : 20px;
-    color          : white;
-    font-size      : 20px;
-    text-shadow    : 2px 2px rgb(0, 0, 0);
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
 .nomeInicio {
-
     margin-left: 340px;
     padding-top: 180px;
-    font-size  : 45px;
-    color      : #990300;
+    font-size: 45px;
+    color: #990300;
     text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 .profissao {
     margin-left: 390px;
-    font-size  : 40px;
+    font-size: 40px;
     text-shadow: 3px 3px rgb(0, 0, 0);
-    color      : #e6e3e3;
+    color: #e6e3e3;
 }
 
 .iconesprincipal {
     display: flex;
     justify-content: center;
-
 }
 
 .icones {
-    
-    padding-top : 20px;
+    padding-top: 20px;
     padding-left: 60px;
-
 }
-main{
-    height           : 700px;
-    width            : 1280px;
-    background-color:#0a0a0a ;
-    padding: 70px;
-    text-align: center;  
+
+main {
+    height: 750px;
+    width: 1280px;
+    background-color: #0a0a0a;
+    padding: 50px;
+    text-align: center;
     display: flex;
-}  
-
-.fotoPessoal{
-    width: 372px;
-    height: 558px;    
-    box-shadow: 15px 15px 20px 1px #990300;
-
 }
-   
 
-.descricao{
-    
+.fotoPessoal {
+    width: 372px;
+    height: 558px;
+    box-shadow: 15px 15px 20px 1px #990300;
+}
+
+.descricao {
     display: inline-block;
     text-align: left;
-    color:white;
-   max-width: 60%;
-   margin-left: 40px;
-
+    color: white;
+    max-width: 60%;
+    margin-left: 40px;
 }
-.descricao p, .descricao h2{
-   
+
+.descricao p,
+.descricao h2 {
     margin-left: 30px;
     text-align: left;
-    text-align:justify ;
+    text-align: justify;
 }
-.descricao h2{
+
+.descricao h2 {
     padding-top: 8px;
     padding-bottom: 15px;
     font-size: 30px;
-    color      : #e6e3e3;
+    color: #e6e3e3;
     text-shadow: 2px 2px rgb(83, 83, 83);
-    
 }
-.descricao p{
+
+.descricao p {
     color: darkgray;
-     text-shadow: 1px 1px rgb(0, 0, 0);
-     font-size: 16px;
-    
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 16px;
 }
-span{
-    font-size:large;
-    padding-right: 70px;    
-    color:rgb(241, 241, 241) ;
+
+span {
+    font-size: large;
+    padding-right: 70px;
+    color: rgb(241, 241, 241);
     text-shadow: 1px 1px rgb(93, 93, 93);
 }
-.curriculo{
+
+.curriculo {
     width: 140px;
     height: 50px;
     border-radius: 25px;
     font-size: 16px;
     margin-left: 280px;
-    background-color:#4D0100;
+    background-color: #4D0100;
     color: #e6e3e3;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    font-weight: bold;   
+    font-weight: bold;
 }
-.mainHabilidades{
+
+.mainHabilidades {
     background-color: rgb(41, 40, 40);
     display: flex;
 }
-.habilidades{    
-    font-size:20px;
-  margin:auto ;
-    color      : #e6e3e3;
+
+.habilidades {
+    display:inline-block;
+    font-size: 20px;
+    margin: auto;
+    color: #e6e3e3;
     text-shadow: 2px 2px rgb(8, 8, 8);
-    
 }
-.quadrado{
-    border-style:solid;
-    width: 1000px;
+.habilidades h2{
+    float: left;
+    margin-bottom: 20px;
+    margin-top: -30px;
+}
+.habilidades p {
+width:1000px ;
+font-size: 16px;
+
+}
+
+.quadrado {
+    margin: auto;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    display: flex;
+    width: 1006px;
     height: 500px;
 }
-.quadradoHabilidades{
-    
+
+.quadradoHabilidades {    
+    padding: 10px;
+    flex-wrap: wrap;
+    width: 250px;
+    height: 250px;
+    border-style: solid;
 }
+
+
 /* 
               MOVIMENTO DO JS
 
@@ -177,4 +195,3 @@ span{
 }
 
 */
-

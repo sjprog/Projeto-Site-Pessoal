@@ -134,10 +134,26 @@ span{
     background-color:#4D0100;
     color: #e6e3e3;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    font-weight: bold;
+    font-weight: bold;   
+}
+.mainHabilidades{
+    background-color: rgb(41, 40, 40);
+    display: flex;
+}
+.habilidades{    
+    font-size:20px;
+  margin:auto ;
+    color      : #e6e3e3;
+    text-shadow: 2px 2px rgb(8, 8, 8);
     
-   
-
+}
+.quadrado{
+    border-style:solid;
+    width: 1000px;
+    height: 500px;
+}
+.quadradoHabilidades{
+    
 }
 /* 
               MOVIMENTO DO JS

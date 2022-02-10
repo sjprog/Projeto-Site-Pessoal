@@ -131,6 +131,8 @@ span {
     font-weight: bold;
 }
 
+/* segunda parte */
+
 .mainHabilidades {
     background-color: rgb(41, 40, 40);
     display: flex;
@@ -175,7 +177,7 @@ span {
     height: 200px;
     margin: 10px;
     margin-left: 40px;
-    border-radius: 5%;
+    border-radius: 8%;
     
     
 }
@@ -196,11 +198,11 @@ span {
    
 }
 .nu3{
-     background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/JavaScript-logo.jpg);
+     background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/js.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;   
-    background-size: 320px;
+    background-size: 200px;
 }
 .nu4{
     background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/react_js.jpg);
@@ -210,11 +212,11 @@ span {
     background-size: 360px;
 }
 .nu5{
-    background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/bootstrap.png.crdownload);
+    background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/bootstrap-social.png.crdownload);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;   
-    background-size: 360px;
+    background-size: 380px;
 }
 .nu6{
     
@@ -267,3 +269,33 @@ span {
 }
 
 */
+
+
+
+/* terceira parte */
+
+.mainexperiencias{
+   display: inline-block;
+   height: 1800px;
+}
+
+.experiencias{   
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #e6e3e3;
+    text-shadow: 2px 2px rgb(8, 8, 8);
+}
+
+.trabalho1{
+    border-style: solid;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: -80px;
+}
+.um >p{
+    float: left;
+}

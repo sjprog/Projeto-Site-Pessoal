@@ -165,26 +165,42 @@ span {
     display: flex;
     width: 1006px;
     height: 500px;
+    border-style: solid;
 }
 
 .quadradoHabilidades {    
-    padding: 10px;
+    padding: 20px;
     flex-wrap: wrap;
-    width: 250px;
-    height: 250px;
-    border-style: solid;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    margin-left: 40px;
+    border-radius: 50%;
+    
+    
 }
 .nu1{
     background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/HTML5.png);
     background-position: center center;
-    background-size: cover;    
-    background-size: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-size: 600px;
+    
 }
 .nu2{
     background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/o-que-e-o-css3.jpg);
     background-position: center center;
-    background-size: cover;    
-    background-size: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;     
+    background-size: 440px;
+   
+}
+.nu3{
+     background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/JavaScript-logo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-size: 320px;
 }
 
 

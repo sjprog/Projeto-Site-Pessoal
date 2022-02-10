@@ -149,8 +149,11 @@ span {
     margin-top: -30px;
 }
 .habilidades p {
-width:1000px ;
-font-size: 16px;
+    width:1000px ;
+    color: darkgray;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 16px;
+    padding-top: 20px;
 
 }
 
@@ -170,6 +173,18 @@ font-size: 16px;
     width: 250px;
     height: 250px;
     border-style: solid;
+}
+.nu1{
+    background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/HTML5.png);
+    background-position: center center;
+    background-size: cover;    
+    background-size: 800px;
+}
+.nu2{
+    background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/o-que-e-o-css3.jpg);
+    background-position: center center;
+    background-size: cover;    
+    background-size: 550px;
 }
 
 

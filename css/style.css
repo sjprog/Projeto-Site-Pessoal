@@ -28,10 +28,20 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.seta{    
+    width:70px ;
+    float:right;
+    margin-right: 50px;
+    margin-top: 650px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+    
+}
 .links {
     float: right;
-    margin-right: 30px;
+    margin-right: -100px;
     padding: 30px;
 }
 
@@ -44,7 +54,7 @@ header {
 }
 
 .nomeInicio {
-    margin-left: 340px;
+    margin-left: 290px;
     padding-top: 180px;
     font-size: 45px;
     color: #990300;
@@ -52,7 +62,7 @@ header {
 }
 
 .profissao {
-    margin-left: 390px;
+    margin-left: 350px;
     font-size: 40px;
     text-shadow: 3px 3px rgb(0, 0, 0);
     color: #e6e3e3;
@@ -64,8 +74,10 @@ header {
 }
 
 .icones {
+   
     padding-top: 20px;
-    padding-left: 60px;
+    margin-left: 60px;
+    
 }
 
 main {

@@ -299,13 +299,63 @@ span {
 }
 
 .trabalho1{
+    position: relative;
     border-style: solid;
-    width: 1000px;
-    height: 300px;
+    width: 1000px;   
     margin: auto;
     margin-top: 80px;
     margin-bottom: -80px;
 }
-.um >p{
-    float: left;
+.um{
+   height: 150px;
+    width: 500px;
+   margin-left: 90px;
+   padding-top: 10px;
+   text-align: justify;
+   font-size: 15px;
+    color: #ffffff;
+    text-shadow: 2px 2px rgb(8, 8, 8);
+}
+
+.dois{
+ 
+    width: 500px;
+    height: 250px;
+   margin-left: 90px;
+   padding-top: 10px;
+   text-align: justify;
+   font-size: 15px;
+    color: #8b8b8b;
+    text-shadow: 2px 2px rgb(8, 8, 8);
+  
+}
+.tres{
+    height: 250px;
+    width: 500px;
+   margin-left: 90px;
+   padding-top: 10px;
+   text-align: justify;
+   font-size: 15px;
+    color: #ffffff;
+    text-shadow: 2px 2px rgb(8, 8, 8);
+}
+.quatro{
+    width: 500px;
+    height: 200px;
+   margin-left: 90px;
+   padding-top: 10px;
+   text-align: justify;
+   font-size: 15px;
+    color: #8b8b8b;
+    text-shadow: 2px 2px rgb(8, 8, 8);
+}
+.cinco{
+    height: 200px;
+    width: 500px;
+   margin-left: 90px;
+   padding-top: 10px;
+   text-align: justify;
+   font-size: 15px;
+    color: #ffffff;
+    text-shadow: 2px 2px rgb(8, 8, 8);
 }

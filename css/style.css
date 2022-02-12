@@ -112,8 +112,8 @@ main {
     padding-top: 8px;
     padding-bottom: 15px;
     font-size: 30px;
-    color: #e6e3e3;
-    text-shadow: 2px 2px rgb(83, 83, 83);
+    color: #990300;
+    text-shadow: 1px 1px rgb(61, 61, 61);
 }
 
 .descricao p {
@@ -144,16 +144,18 @@ span {
 /* segunda parte */
 
 .mainHabilidades {
-    background-color: rgb(41, 40, 40);
-    display: flex;
+    display: flex; background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .70)100%), url(assets/img02.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
 }
 
 .habilidades {
     display:inline-block;
     font-size: 20px;
     margin: auto;
-    color: #e6e3e3;
-    text-shadow: 2px 2px rgb(8, 8, 8);
+    color: #990300;
+    text-shadow: 1px 1px rgb(0, 0, 0);
 }
 .habilidades h2{
     float: left;
@@ -183,10 +185,10 @@ span {
 .quadradoHabilidades {    
     padding: 20px;
     flex-wrap: wrap;
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     margin: 10px;
-    margin-left: 40px;
+    margin-left: 55px;
     border-radius: 8%;
     
     
@@ -196,7 +198,7 @@ span {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;    
-    background-size: 600px;
+    background-size: 540px;
     
 }
 .nu2{
@@ -204,7 +206,7 @@ span {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;     
-    background-size: 440px;
+    background-size: 370px;
    
 }
 .nu3{
@@ -212,21 +214,21 @@ span {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;   
-    background-size: 200px;
+    background-size: 170px;
 }
 .nu4{
     background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/react_js.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;   
-    background-size: 360px;
+    background-size: 300px;
 }
 .nu5{
     background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/bootstrap-social.png.crdownload);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;   
-    background-size: 380px;
+    background-size: 330px;
 }
 .nu6{
     
@@ -234,7 +236,7 @@ span {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;   
-    background-size: 360px;
+    background-size: 330px;
 }
 .nu7{
     
@@ -242,7 +244,7 @@ span {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;   
-    background-size: 360px;
+    background-size: 330px;
 
 }
 .nu8{
@@ -251,7 +253,7 @@ span {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;   
-    background-size: 360px;
+    background-size: 300px;
 
 }
 
@@ -294,8 +296,8 @@ span {
     margin-left: 70px;
     margin-top: 20px;
     font-size: 20px;
-    color: #e6e3e3;
-    text-shadow: 2px 2px rgb(8, 8, 8);
+    color: #990300;
+    text-shadow: 1px 1px rgb(61, 61, 61);
 }
 
 .trabalho1{
@@ -307,13 +309,13 @@ span {
 }
 .certoum{
     position: absolute;
-    padding-top: 140px;
+    padding-top: 85px;
     padding-left: 620px;
 }
 .dataum{
    position: absolute;
    margin-left: 700px;
-   padding-top: 145px;
+   padding-top: 90px;
    font-size: 22px;
    color: #8b8b8b;
    text-shadow: 2px 2px rgb(8, 8, 8);
@@ -331,13 +333,13 @@ span {
 }
 .certodois{
     position: absolute;
-    padding-top: 320px;
+    padding-top: 235px;
     padding-left: 620px;
 }
 .datadois{
     position: absolute;
     margin-left: 700px;
-   padding-top: 325px;
+   padding-top: 237px;
     font-size: 22px;
     color: #ffffff;
     text-shadow: 2px 2px rgb(8, 8, 8);
@@ -358,13 +360,13 @@ span {
 }
 .erradotres{
     position: absolute;
-    padding-top: 575px;
+    padding-top: 485px;
     padding-left: 620px;
 }
 .datatres{
     position: absolute;
     margin-left: 700px;
-   padding-top: 580px;
+   padding-top: 487px;
     font-size: 22px;
     color: #8b8b8b;
     text-shadow: 2px 2px rgb(8, 8, 8);
@@ -381,13 +383,13 @@ span {
 }
 .erradoquatro{
     position: absolute;
-    padding-top: 795px;
+    padding-top: 733px;
     padding-left: 620px;
 }
 .dataquatro{
     position: absolute;
     margin-left: 700px;
-   padding-top: 800px;
+   padding-top: 737px;
     font-size: 22px;
     color: #ffffff;
     text-shadow: 2px 2px rgb(8, 8, 8);
@@ -405,13 +407,13 @@ span {
 
 .erradocinco{
     position: absolute;
-    padding-top: 995px;
+    padding-top: 935px;
     padding-left: 620px;
 }
 .datacinco{
     position: absolute;
     margin-left: 700px;
-   padding-top: 1000px;
+   padding-top: 940px;
     font-size: 22px;
     color: #8b8b8b;
     text-shadow: 2px 2px rgb(8, 8, 8);
@@ -425,4 +427,23 @@ span {
    font-size: 15px;
     color: #ffffff;
     text-shadow: 2px 2px rgb(8, 8, 8);
+}
+
+/* quarta parte */
+
+.mainsucesso{
+    background-color: #292828;
+    background: linear-gradient(rgba(54, 53, 53, 0.90), rgba(0, 0, 0, .90)100%), url(assets/sucesso03.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+
+.pilaresSucesso{
+    color: #990300;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    margin-left: 70px;
+    margin-top: 20px;
+    font-size: 20px;
 }

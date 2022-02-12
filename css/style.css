@@ -299,11 +299,16 @@ span {
 }
 
 .trabalho1{
-    border-style: solid;
+    
     width: 1000px;   
     margin: auto;
     margin-top: 80px;
     margin-bottom: -80px;
+}
+.certoum{
+    position: absolute;
+    padding-top: 140px;
+    padding-left: 620px;
 }
 .dataum{
    position: absolute;
@@ -319,10 +324,15 @@ span {
     width: 500px;
    margin-left: 90px;
    padding-top: 10px;
-   text-align: justify;
+   text-align: center;
    font-size: 15px;
     color: #ffffff;
     text-shadow: 2px 2px rgb(8, 8, 8);
+}
+.certodois{
+    position: absolute;
+    padding-top: 320px;
+    padding-left: 620px;
 }
 .datadois{
     position: absolute;
@@ -340,13 +350,17 @@ span {
     height: 250px;
    margin-left: 90px;
    padding-top: 10px;
-   text-align: justify;
+   text-align: center;
    font-size: 15px;
     color: #8b8b8b;
     text-shadow: 2px 2px rgb(8, 8, 8);
   
 }
-
+.erradotres{
+    position: absolute;
+    padding-top: 575px;
+    padding-left: 620px;
+}
 .datatres{
     position: absolute;
     margin-left: 700px;
@@ -360,10 +374,15 @@ span {
     width: 500px;
    margin-left: 90px;
    padding-top: 10px;
-   text-align: justify;
+   text-align: center;
    font-size: 15px;
     color: #ffffff;
     text-shadow: 2px 2px rgb(8, 8, 8);
+}
+.erradoquatro{
+    position: absolute;
+    padding-top: 795px;
+    padding-left: 620px;
 }
 .dataquatro{
     position: absolute;
@@ -378,12 +397,17 @@ span {
     height: 200px;
    margin-left: 90px;
    padding-top: 10px;
-   text-align: justify;
+   text-align: center;
    font-size: 15px;
     color: #8b8b8b;
     text-shadow: 2px 2px rgb(8, 8, 8);
 }
 
+.erradocinco{
+    position: absolute;
+    padding-top: 995px;
+    padding-left: 620px;
+}
 .datacinco{
     position: absolute;
     margin-left: 700px;
@@ -397,7 +421,7 @@ span {
     width: 500px;
    margin-left: 90px;
    padding-top: 10px;
-   text-align: justify;
+   text-align: center;
    font-size: 15px;
     color: #ffffff;
     text-shadow: 2px 2px rgb(8, 8, 8);

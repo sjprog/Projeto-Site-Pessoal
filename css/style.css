@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2? family = Poppins: ital, wght @ 1,300; 1,400; 1,500 & display = swap');
+
 :root {
     --cor01: (#4D0100);
     --cor01: (#33100F);
@@ -10,250 +12,263 @@
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin    : 0px;
+    padding   : 0px;
     box-sizing: border-box;
 }
 
 body {
-    max-width: 1280px;
+    max-width  : 1280px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color      : white;
 }
 
 header {
-    height: 800px;
-    width: 1280px;
-    background: linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%), url(../css/assets/fundo04.jpg);
+    height           : 800px;
+    width            : 1280px;
+    background       : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%), url(../css/assets/fundo04.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size  : cover;
 }
-.seta{    
-    width:70px ;
-    float:right;
+
+.seta {
+    width       : 70px;
+    float       : right;
     margin-right: 30px;
-    margin-top: 650px;
-    position: sticky;
-    top: 0;
-    z-index: 1;    
+    margin-top  : 650px;
+    position    : sticky;
+    top         : 0;
+    z-index     : 1;
 }
+
 .links {
-    float: right;
+    float       : right;
     margin-right: -100px;
-    padding: 30px;
+    padding     : 30px;
 }
 
 .links>a {
     text-decoration: none;
-    padding: 20px;
-    color: white;
-    font-size: 20px;
-    text-shadow: 2px 2px rgb(0, 0, 0);
+    padding        : 20px;
+    color          : white;
+    font-size      : 20px;
+    text-shadow    : 2px 2px rgb(0, 0, 0);
 }
 
 .nomeInicio {
     margin-left: 290px;
     padding-top: 180px;
-    font-size: 45px;
-    color: #990300;
+    font-size  : 45px;
+    color      : #990300;
     text-shadow: 3px 3px rgb(0, 0, 0);
 }
 
 .profissao {
     margin-left: 350px;
-    font-size: 40px;
+    font-size  : 40px;
     text-shadow: 3px 3px rgb(0, 0, 0);
-    color: #e6e3e3;
+    color      : #e6e3e3;
 }
 
 .iconesprincipal {
-    display: flex;
+    display        : flex;
     justify-content: center;
 }
 
 .icones {
-   
+
     padding-top: 20px;
     margin-left: 60px;
-    
+
 }
 
 main {
-    height: 750px;
-    width: 1280px;
+    height          : 750px;
+    width           : 1280px;
     background-color: #0a0a0a;
-    padding: 50px;
-    text-align: center;
-    display: flex;
+    padding         : 50px;
+    text-align      : center;
+    display         : flex;
 }
 
 .fotoPessoal {
-    width: 372px;
-    height: 558px;
+    width     : 372px;
+    height    : 558px;
     box-shadow: 15px 15px 20px 1px #990300;
 }
 
 .descricao {
-    display: inline-block;
-    text-align: left;
-    color: white;
-    max-width: 60%;
+    display    : inline-block;
+    text-align : left;
+    color      : white;
+    max-width  : 60%;
     margin-left: 40px;
 }
 
 .descricao p,
 .descricao h2 {
     margin-left: 30px;
-    text-align: left;
-    text-align: justify;
+    text-align : left;
+    text-align : justify;
 }
 
 .descricao h2 {
-    padding-top: 8px;
+    padding-top   : 8px;
     padding-bottom: 15px;
-    font-size: 30px;
-    color: #990300;
-    text-shadow: 1px 1px rgb(61, 61, 61);
+    font-size     : 30px;
+    color         : #990300;
+    text-shadow   : 1px 1px rgb(61, 61, 61);
 }
 
 .descricao p {
-    color: darkgray;
+    color      : darkgray;
     text-shadow: 1px 1px rgb(0, 0, 0);
-    font-size: 16px;
+    font-size  : 16px;
 }
 
 span {
-    font-size: large;
+    font-size    : large;
     padding-right: 70px;
-    color: rgb(241, 241, 241);
-    text-shadow: 1px 1px rgb(93, 93, 93);
+    color        : rgb(241, 241, 241);
+    text-shadow  : 1px 1px rgb(93, 93, 93);
 }
 
 .curriculo {
-    width: 140px;
-    height: 50px;
-    border-radius: 25px;
-    font-size: 16px;
-    margin-left: 280px;
+    width           : 140px;
+    height          : 50px;
+    border-radius   : 25px;
+    font-size       : 16px;
+    margin-left     : 280px;
     background-color: #4D0100;
-    color: #e6e3e3;
-    text-shadow: 1px 1px 1px rgb(0, 0, 0);
-    font-weight: bold;
+    color           : #e6e3e3;
+    text-shadow     : 1px 1px 1px rgb(0, 0, 0);
+    font-weight     : bold;
 }
 
 /* segunda parte */
 
 .mainHabilidades {
-    display: flex; background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .70)100%), url(assets/img02.jpg);
-    background-size: cover;
-    background-repeat: repeat;
+    display              : flex;
+    background           : linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .70)100%), url(assets/img02.jpg);
+    background-size      : cover;
+    background-repeat    : repeat;
     background-attachment: fixed;
 }
 
 .habilidades {
-    display:inline-block;
-    font-size: 20px;
-    margin: auto;
-    color: #990300;
+    display    : inline-block;
+    font-size  : 20px;
+    margin     : auto;
+    color      : #990300;
     text-shadow: 1px 1px rgb(0, 0, 0);
 }
-.habilidades h2{
-    float: left;
+
+.habilidades h2 {
+    float        : left;
     margin-bottom: 20px;
-    margin-top: -30px;
+    margin-top   : -30px;
 }
+
 .habilidades p {
-    width:1000px ;
-    color: darkgray;
+    width      : 1000px;
+    color      : darkgray;
     text-shadow: 1px 1px rgb(0, 0, 0);
-    font-size: 16px;
+    font-size  : 16px;
     padding-top: 20px;
 
 }
 
 .quadrado {
-    margin: auto;
-    margin-top: 40px;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    display: flex;
-    width: 1006px;
-    height: 500px;
+    margin         : auto;
+    margin-top     : 40px;
+    flex-wrap      : wrap;
+    box-sizing     : border-box;
+    display        : flex;
+    width          : 1006px;
+    height         : 500px;
     /* border-style: solid; */
 }
 
-.quadradoHabilidades {    
-    padding: 20px;
-    flex-wrap: wrap;
-    width: 170px;
-    height: 170px;
-    margin: 10px;
-    margin-left: 55px;
+.quadradoHabilidades {
+    padding      : 20px;
+    flex-wrap    : wrap;
+    width        : 170px;
+    height       : 170px;
+    margin       : 10px;
+    margin-left  : 55px;
     border-radius: 8%;
-    
-    
-}
-.nu1{
-    background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/HTML5.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;    
-    background-size: 540px;
-    
-}
-.nu2{
-    background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/o-que-e-o-css3.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;     
-    background-size: 370px;
-   
-}
-.nu3{
-     background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/js.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;   
-    background-size: 170px;
-}
-.nu4{
-    background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/react_js.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;   
-    background-size: 300px;
-}
-.nu5{
-    background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/bootstrap-social.png.crdownload);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;   
-    background-size: 330px;
-}
-.nu6{
-    
-    background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/nodejs.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;   
-    background-size: 330px;
-}
-.nu7{
-    
-    background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/firebase.png);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;   
-    background-size: 330px;
+
 
 }
-.nu8{
-   
-    background: linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/mongodb.jpg);
+
+.nu1 {
+    background         : linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/HTML5.png);
     background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;   
-    background-size: 300px;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-size    : 540px;
+
+}
+
+.nu2 {
+    background         : linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/o-que-e-o-css3.jpg);
+    background-position: center center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-size    : 370px;
+
+}
+
+.nu3 {
+    background         : linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/js.png);
+    background-position: center center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-size    : 170px;
+}
+
+.nu4 {
+    background         : linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/react_js.jpg);
+    background-position: center center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-size    : 300px;
+}
+
+.nu5 {
+    background         : linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/bootstrap-social.png.crdownload);
+    background-position: center center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-size    : 330px;
+}
+
+.nu6 {
+
+    background         : linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/nodejs.jpg);
+    background-position: center center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-size    : 330px;
+}
+
+.nu7 {
+
+    background         : linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/firebase.png);
+    background-position: center center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-size    : 330px;
+
+}
+
+.nu8 {
+
+    background         : linear-gradient(rgba(54, 53, 53, 0.30), rgba(0, 0, 0, .30)100%), url(assets/mongodb.jpg);
+    background-position: center center;
+    background-size    : cover;
+    background-repeat  : no-repeat;
+    background-size    : 300px;
 
 }
 
@@ -286,210 +301,302 @@ span {
 
 /* terceira parte */
 
-.mainexperiencias{
-   display: inline-block;
-   height: 1300px;
+.mainexperiencias {
+    display: inline-block;
+    height : 1300px;
 }
 
-.experiencias{   
-    float: left;
+.experiencias {
+    float      : left;
     margin-left: 70px;
-    margin-top: 20px;
-    font-size: 20px;
-    color: #990300;
+    margin-top : 20px;
+    font-size  : 20px;
+    color      : #990300;
     text-shadow: 1px 1px rgb(61, 61, 61);
 }
 
-.trabalho1{
-    
-    width: 1000px;   
-    margin: auto;
-    margin-top: 80px;
+.trabalho1 {
+
+    width        : 1000px;
+    margin       : auto;
+    margin-top   : 80px;
     margin-bottom: -80px;
 }
-.certoum{
-    position: absolute;
-    padding-top: 85px;
+
+.certoum {
+    position    : absolute;
+    padding-top : 85px;
     padding-left: 620px;
-}
-.dataum{
-   position: absolute;
-   margin-left: 700px;
-   padding-top: 90px;
-   font-size: 22px;
-   color: #8b8b8b;
-   text-shadow: 2px 2px rgb(8, 8, 8);
 }
 
-.um{
-   height: 150px;
-    width: 500px;
-   margin-left: 90px;
-   padding-top: 10px;
-   text-align: center;
-   font-size: 15px;
-    color: #ffffff;
-    text-shadow: 2px 2px rgb(8, 8, 8);
-}
-.certodois{
-    position: absolute;
-    padding-top: 235px;
-    padding-left: 620px;
-}
-.datadois{
-    position: absolute;
+.dataum {
+    position   : absolute;
     margin-left: 700px;
-   padding-top: 237px;
-    font-size: 22px;
-    color: #ffffff;
-    text-shadow: 2px 2px rgb(8, 8, 8);
- }
-
-
-.dois{
- 
-    width: 500px;
-    height: 250px;
-   margin-left: 90px;
-   padding-top: 10px;
-   text-align: center;
-   font-size: 15px;
-    color: #8b8b8b;
-    text-shadow: 2px 2px rgb(8, 8, 8);
-  
-}
-.erradotres{
-    position: absolute;
-    padding-top: 485px;
-    padding-left: 620px;
-}
-.datatres{
-    position: absolute;
-    margin-left: 700px;
-   padding-top: 487px;
-    font-size: 22px;
-    color: #8b8b8b;
-    text-shadow: 2px 2px rgb(8, 8, 8);
- }
-.tres{
-    height: 250px;
-    width: 500px;
-   margin-left: 90px;
-   padding-top: 10px;
-   text-align: center;
-   font-size: 15px;
-    color: #ffffff;
-    text-shadow: 2px 2px rgb(8, 8, 8);
-}
-.erradoquatro{
-    position: absolute;
-    padding-top: 733px;
-    padding-left: 620px;
-}
-.dataquatro{
-    position: absolute;
-    margin-left: 700px;
-   padding-top: 737px;
-    font-size: 22px;
-    color: #ffffff;
-    text-shadow: 2px 2px rgb(8, 8, 8);
- }
-.quatro{
-    width: 500px;
-    height: 200px;
-   margin-left: 90px;
-   padding-top: 10px;
-   text-align: center;
-   font-size: 15px;
-    color: #8b8b8b;
+    padding-top: 90px;
+    font-size  : 22px;
+    color      : #8b8b8b;
     text-shadow: 2px 2px rgb(8, 8, 8);
 }
 
-.erradocinco{
-    position: absolute;
-    padding-top: 935px;
+.um {
+    height     : 150px;
+    width      : 500px;
+    margin-left: 90px;
+    padding-top: 10px;
+    text-align : center;
+    font-size  : 15px;
+    color      : #ffffff;
+    text-shadow: 2px 2px rgb(8, 8, 8);
+}
+
+.certodois {
+    position    : absolute;
+    padding-top : 235px;
     padding-left: 620px;
 }
-.datacinco{
-    position: absolute;
+
+.datadois {
+    position   : absolute;
     margin-left: 700px;
-   padding-top: 940px;
-    font-size: 22px;
-    color: #8b8b8b;
+    padding-top: 237px;
+    font-size  : 22px;
+    color      : #ffffff;
     text-shadow: 2px 2px rgb(8, 8, 8);
- }
-.cinco{
-    height: 200px;
-    width: 500px;
-   margin-left: 90px;
-   padding-top: 10px;
-   text-align: center;
-   font-size: 15px;
-    color: #ffffff;
+}
+
+
+.dois {
+
+    width      : 500px;
+    height     : 250px;
+    margin-left: 90px;
+    padding-top: 10px;
+    text-align : center;
+    font-size  : 15px;
+    color      : #8b8b8b;
+    text-shadow: 2px 2px rgb(8, 8, 8);
+
+}
+
+.erradotres {
+    position    : absolute;
+    padding-top : 485px;
+    padding-left: 620px;
+}
+
+.datatres {
+    position   : absolute;
+    margin-left: 700px;
+    padding-top: 487px;
+    font-size  : 22px;
+    color      : #8b8b8b;
+    text-shadow: 2px 2px rgb(8, 8, 8);
+}
+
+.tres {
+    height     : 250px;
+    width      : 500px;
+    margin-left: 90px;
+    padding-top: 10px;
+    text-align : center;
+    font-size  : 15px;
+    color      : #ffffff;
+    text-shadow: 2px 2px rgb(8, 8, 8);
+}
+
+.erradoquatro {
+    position    : absolute;
+    padding-top : 733px;
+    padding-left: 620px;
+}
+
+.dataquatro {
+    position   : absolute;
+    margin-left: 700px;
+    padding-top: 737px;
+    font-size  : 22px;
+    color      : #ffffff;
+    text-shadow: 2px 2px rgb(8, 8, 8);
+}
+
+.quatro {
+    width      : 500px;
+    height     : 200px;
+    margin-left: 90px;
+    padding-top: 10px;
+    text-align : center;
+    font-size  : 15px;
+    color      : #8b8b8b;
+    text-shadow: 2px 2px rgb(8, 8, 8);
+}
+
+.erradocinco {
+    position    : absolute;
+    padding-top : 935px;
+    padding-left: 620px;
+}
+
+.datacinco {
+    position   : absolute;
+    margin-left: 700px;
+    padding-top: 940px;
+    font-size  : 22px;
+    color      : #8b8b8b;
+    text-shadow: 2px 2px rgb(8, 8, 8);
+}
+
+.cinco {
+    height     : 200px;
+    width      : 500px;
+    margin-left: 90px;
+    padding-top: 10px;
+    text-align : center;
+    font-size  : 15px;
+    color      : #ffffff;
     text-shadow: 2px 2px rgb(8, 8, 8);
 }
 
 /* quarta parte */
 
-.mainsucesso{
-    background-color: #292828;
-    background: linear-gradient(rgba(54, 53, 53, 0.90), rgba(0, 0, 0, .90)100%), url(assets/sucesso03.jpg);
-    background-size: cover;
-    background-repeat: repeat;
+.mainsucesso {
+    background-color     : #292828;
+    background           : linear-gradient(rgba(54, 53, 53, 0.90), rgba(0, 0, 0, .90)100%), url(assets/sucesso03.jpg);
+    background-size      : cover;
+    background-repeat    : repeat;
     background-attachment: fixed;
-    display: inline-block;
-    height: 100%;
+    display              : inline-block;
+    height               : 100%;
 }
 
 
-.pilaresSucesso{
-    
-    color: #990300;
-    text-shadow: 1px 1px rgb(0, 0, 0);
-    font-size: 20px; 
-    margin-left: 70px;
-    margin-top: 20px; 
+.pilaresSucesso {
+
+    color       : #990300;
+    text-shadow : 1px 1px rgb(0, 0, 0);
+    font-size   : 20px;
+    margin-left : 70px;
+    margin-top  : 20px;
     margin-right: 70px;
 }
 
-.pilaresSucesso h2{
-    float: left;
+.pilaresSucesso h2 {
+    float        : left;
     margin-bottom: 20px;
-    margin-top: -30px;
-    padding-top: 30px;
-    
+    margin-top   : -30px;
+    padding-top  : 30px;
+
 }
-.pilaresSucesso p{
-    color: darkgray;
+
+.pilaresSucesso p {
+    color      : darkgray;
     text-shadow: 1px 1px rgb(0, 0, 0);
-    font-size: 16px;
+    font-size  : 16px;
     padding-top: 60px;
 }
-.quadradodospilares{
+
+.quadradodospilares {
     display: flex;
 }
-.disciplina{
-    background-color: #042E4D;
-    
-    width: 360px;
-    height: 600px;
-    margin: auto;
+
+.disciplina {
+    background             : rgba(255, 255, 255, 0.1);
+    backdrop-filter        : blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width                  : 360px;
+    height                 : 600px;
+    margin                 : auto;
+    margin-top             : 30px;
+}
+
+.disciplina02 {
+    background : linear-gradient(rgba(48, 47, 47, 0.9), rgba(0, 0, 0, .90)100%), url();
+    padding    : 30px;
+    font-size  : 20px;
+    width      : 100%;
+    height     : 100px;
+    text-shadow: 2px 2px rgb(66, 66, 66);
+
+}
+
+.humildade {
+    background             : rgba(255, 255, 255, 0.1);
+    backdrop-filter        : blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    width     : 360px;
+    height    : 600px;
+    margin    : auto;
     margin-top: 30px;
 }
 
-.humildade{
-    background-color: #004D18;
-    
-    width: 360px;
-    height: 600px;
-    margin: auto;
+.humildade02 {
+    background : linear-gradient(rgba(48, 47, 47, 0.9), rgba(0, 0, 0, .90)100%), url();
+    padding    : 30px;
+    font-size  : 20px;
+    width      : 100%;
+    height     : 100px;
+    text-shadow: 2px 2px rgb(66, 66, 66);
+
+}
+
+.autoresponsabilidade {
+    background             : rgba(255, 255, 255, 0.1);
+    backdrop-filter        : blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    width     : 360px;
+    height    : 600px;
+    margin    : auto;
     margin-top: 30px;
 }
-.autoresponsabilidade{
-    background-color: #4D0100;
+
+.autoresponsabilidade02 {
+    background : linear-gradient(rgba(48, 47, 47, 0.9), rgba(0, 0, 0, .90)100%), url();
+    padding    : 15px;
+    font-size  : 20px;
+    width      : 100%;
+    height     : 100px;
+    text-shadow: 2px 2px rgb(66, 66, 66);
+
+}
+
+.maindiasdoano {
     
-    width: 360px;
-    height: 600px;
-    margin: auto;
-    margin-top: 30px;
+    height: 100%;
+    margin: auto;    
+    display       : flex;
+    flex-direction: column;
+    align-items   : center;
+    min-height    : 50vh;
+
+}
+.maindiasdoano h1{
+    font-weight: normal;
+    font-size: 3rem;
+    margin-top: 0rem;
+  }
+  
+  .countdown-container {
+      
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .text {
+      
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0rem 2rem;
+  }
+  
+  .countdown-el {
+     
+    text-align: center;
+  }
+  
+  .countdown-el span {
+      
+    font-size: 1.5rem;
 }

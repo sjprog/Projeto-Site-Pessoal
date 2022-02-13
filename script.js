@@ -1,25 +1,33 @@
-let jogador = document.getElementById("jogador");
+const daysEl = document.getElementById("days");
+const hoursEl = document.getElementById("hours");
+const minsEl = document.getElementById("mins");
+const secondsEl = document.getElementById("seconds");
 
-let xInicial = 0;
-let yInicial = 0;
+const newYears = '1 Jan 2023'
 
+function countdown() {
+  const newYearsDate = new Date(newYears);
+  const currentDate = new Date();
 
-function moverJogadorPara(x, y) {
+  const totalSeconds = (newYearsDate - currentDate) / 1000;
 
-    let posX = x + "px";
-    let posY = y + "px";
+  const days = Math.floor(totalSeconds / 3600 / 24);
+  const hours = Math.floor(totalSeconds / 3600) % 24;
+  const mins = Math.floor(totalSeconds / 60) % 60;
+  const seconds = Math.floor(totalSeconds) % 60;
 
-
-    jogador.style.top = posX;
-    jogador.style.left = posY;
-
+  daysEl.innerHTML = days;
+  hoursEl.innerHTML = formatTime(hours);
+  minsEl.innerHTML = formatTime(mins);
+  secondsEl.innerHTML = formatTime(seconds);
 }
 
-setInterval(function () {
+function formatTime(time){
+  return time < 10 ? `0${time}` : time;
+}
 
-    moverJogadorPara(xInicial++, yInicial++);
+countdown();
 
-
-}, 24);
+setInterval(countdown, 1000);
 
 

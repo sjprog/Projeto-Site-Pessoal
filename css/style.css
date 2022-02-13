@@ -437,13 +437,59 @@ span {
     background-size: cover;
     background-repeat: repeat;
     background-attachment: fixed;
+    display: inline-block;
+    height: 100%;
 }
 
 
 .pilaresSucesso{
+    
     color: #990300;
     text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 20px; 
     margin-left: 70px;
-    margin-top: 20px;
-    font-size: 20px;
+    margin-top: 20px; 
+    margin-right: 70px;
+}
+
+.pilaresSucesso h2{
+    float: left;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    padding-top: 30px;
+    
+}
+.pilaresSucesso p{
+    color: darkgray;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 16px;
+    padding-top: 60px;
+}
+.quadradodospilares{
+    display: flex;
+}
+.disciplina{
+    background-color: #042E4D;
+    
+    width: 360px;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.humildade{
+    background-color: #004D18;
+    
+    width: 360px;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+.autoresponsabilidade{
+    background-color: #4D0100;
+    
+    width: 360px;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
 }

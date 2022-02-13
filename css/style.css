@@ -480,6 +480,8 @@ span {
 }
 
 .pilaresSucesso h2 {
+    text-align: justify;
+    text-align: center;
     float        : left;
     margin-bottom: 20px;
     margin-top   : -30px;
@@ -492,10 +494,13 @@ span {
     text-shadow: 1px 1px rgb(0, 0, 0);
     font-size  : 16px;
     padding-top: 60px;
+    
 }
 
 .quadradodospilares {
     display: flex;
+    
+    
 }
 
 .disciplina {
@@ -506,6 +511,7 @@ span {
     height                 : 600px;
     margin                 : auto;
     margin-top             : 30px;
+    
 }
 
 .disciplina02 {
@@ -515,6 +521,7 @@ span {
     width      : 100%;
     height     : 100px;
     text-shadow: 2px 2px rgb(66, 66, 66);
+    
 
 }
 
@@ -527,6 +534,7 @@ span {
     height    : 600px;
     margin    : auto;
     margin-top: 30px;
+    
 }
 
 .humildade02 {
@@ -536,7 +544,8 @@ span {
     width      : 100%;
     height     : 100px;
     text-shadow: 2px 2px rgb(66, 66, 66);
-
+   
+    
 }
 
 .autoresponsabilidade {
@@ -559,6 +568,16 @@ span {
     text-shadow: 2px 2px rgb(66, 66, 66);
 
 }
+.paragrafodospilares{
+    text-align: justify;
+    text-align: center;
+    font-size: 18px;
+    padding: 16px;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    color      : darkgray;
+}
+
+/* contagem do tempo */
 
 .maindiasdoano {
     

@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2? family = Poppins: ital, wght @ 1,300; 1,400; 1,500 & display = swap');
 
+
+ 
+
+@keyframes imagem {
+    0% {background-image: url(assets/fundo02.1.jpg);}
+    50%{background-image: url(assets/fundo04.1.jpg);}
+    100% {background-image: url(assets/fundo04.jpg);}
+    
+}
+
+
 :root {
     --cor01: (#4D0100);
     --cor01: (#33100F);
@@ -29,8 +40,12 @@ body {
 
 
 header {  
-    
-    height           : 800px;
+
+    animation-name: imagem;
+    animation-duration: 5s;
+
+
+    height          : 800px;
     width            : 1280px;
     background       : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%), url(../css/assets/fundo04.jpg);
     background-repeat: no-repeat;

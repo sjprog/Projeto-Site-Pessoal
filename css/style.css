@@ -617,7 +617,8 @@ span {
 
 }
 .maindiasdoano h1{
-    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-top: 10px;
     margin-bottom: -50px;
     font-weight: normal;
     font-size: 3rem;
@@ -650,4 +651,12 @@ span {
 }
 
 /* animacoes */
+
+
+@media screen and (max-width: 800px) {
+
+
+
+
+}
 

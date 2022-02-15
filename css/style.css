@@ -738,11 +738,11 @@ span {
     }
 
     main {
-        position: relative;
-        display  : block;
-        max-width: 100%;
-        height: 1650px;
-        margin   : auto;
+        position        : relative;
+        display         : block;
+        max-width       : 100%;
+        height          : 1650px;
+        margin          : auto;
         background-color: #0a0a0a;
         padding         : 10px;
         text-align      : center;
@@ -758,24 +758,24 @@ span {
     }
 
     .descricao {
-        display    : block;
+        display : block;
         position: absolute;
-      
-       
-     
+
+
+
     }
 
     .descricao p,
     .descricao h2 {
-       
+
         margin-left: 100px;
-        
-        text-align : justify;
+
+        text-align: justify;
     }
 
     .descricao h2 {
-       
-        margin-top: 650px;
+
+        margin-top    : 650px;
         padding-bottom: 20px;
         font-size     : 30px;
         color         : #990300;
@@ -784,7 +784,7 @@ span {
 
     .descricao p {
         margin-left: 50px;
-        width: 590px;
+        width      : 590px;
         color      : darkgray;
         text-shadow: 1px 1px rgb(0, 0, 0);
         font-size  : 16px;
@@ -802,7 +802,7 @@ span {
         height          : 50px;
         border-radius   : 25px;
         font-size       : 16px;
-        margin-top: 20px;
+        margin-top      : 20px;
         margin-left     : 120px;
         background-color: #4D0100;
         color           : #e6e3e3;
@@ -812,18 +812,18 @@ span {
 
 
     .mainHabilidades {
-        height: 1150px;
-        position: relative;
+        height               : 1150px;
+        position             : relative;
         display              : flex;
         background           : linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .70)100%), url(assets/img02.jpg);
         background-size      : cover;
         background-repeat    : repeat;
         background-attachment: fixed;
     }
-    
+
     .habilidades {
-        max-width: 100%;
-        position: absolute;
+        max-width  : 100%;
+        position   : absolute;
         padding-top: 100px;
         display    : inline-block;
         font-size  : 20px;
@@ -831,26 +831,26 @@ span {
         color      : #990300;
         text-shadow: 1px 1px rgb(0, 0, 0);
     }
-    
+
     .habilidades h2 {
-        margin-left: 150px;
+        margin-left  : 150px;
         margin-bottom: 20px;
         margin-top   : -30px;
     }
-    
+
     .habilidades p {
-        text-align : justify;
-      padding-right: 20px;
-        margin-top:30px ;
-        color      : darkgray;
-        text-shadow: 1px 1px rgb(0, 0, 0);
-        font-size  : 18px;
-        padding-top: 20px;
-    
+        text-align   : justify;
+        padding-right: 20px;
+        margin-top   : 30px;
+        color        : darkgray;
+        text-shadow  : 1px 1px rgb(0, 0, 0);
+        font-size    : 18px;
+        padding-top  : 20px;
+
     }
-    
+
     .quadrado {
-        max-width: 100%;
+        max-width      : 100%;
         margin         : auto;
         margin-top     : 40px;
         flex-wrap      : wrap;
@@ -860,9 +860,9 @@ span {
         height         : 500px;
         /* border-style: solid; */
     }
-    
+
     .quadradoHabilidades {
-        max-width: 100%;
+        max-width    : 100%;
         padding      : 20px;
         flex-wrap    : wrap;
         width        : 170px;
@@ -870,45 +870,45 @@ span {
         margin       : 10px;
         margin-left  : 40px;
         border-radius: 8%;
-    
-    
+
+
     }
 
 
     .mainexperiencias {
 
         max-width: 100%;
-        display:block;
-        height : 1900px;
+        display  : block;
+        height   : 1900px;
     }
-    
+
     .experiencias {
         margin-bottom: 40px;
-        margin-left: 125px;
-        margin-top : 20px;
-        font-size  : 20px;
-        color      : #990300;
-        text-shadow: 1px 1px rgb(61, 61, 61);
+        margin-left  : 125px;
+        margin-top   : 20px;
+        font-size    : 20px;
+        color        : #990300;
+        text-shadow  : 1px 1px rgb(61, 61, 61);
     }
-    
+
     .trabalho1 {
-        text-align: justify;
+        text-align   : justify;
         width        : 400px;
         margin       : auto;
         margin-top   : 80px;
         margin-bottom: 110px;
     }
-    
+
     .certoum {
-        position    : absolute;
-        padding-top : 85px;
-       
+        position   : absolute;
+        padding-top: 85px;
+
     }
-    
+
     .dataum {
-        
+
         margin-left: 100px;
-        margin-top: 130px;
+        margin-top : 130px;
         font-size  : 22px;
         color      : #ffffff;
         text-shadow: 2px 2px rgb(8, 8, 8);
@@ -919,23 +919,23 @@ span {
         padding-top : 235px;
         padding-left: 620px;
     }
-    
+
     .datadois {
         margin-left: 60px;
-        margin-top: 390px;
+        margin-top : 390px;
         font-size  : 22px;
-        color  :    darkgray;
+        color      : darkgray;
         text-shadow: 2px 2px rgb(8, 8, 8);
     }
-    
-    
+
+
     .dois {
-        text-align: justify;
+        text-align   : justify;
         width        : 400px;
         margin       : auto;
         margin-top   : 80px;
         margin-bottom: 150px;
-    
+
     }
 
     .erradotres {
@@ -943,70 +943,168 @@ span {
         padding-top : 485px;
         padding-left: 620px;
     }
-    
+
     .datatres {
         margin-left: 10px;
-        margin-top: 520px;
+        margin-top : 520px;
         font-size  : 22px;
-        color  :    rgb(255, 255, 255);
+        color      : rgb(255, 255, 255);
         text-shadow: 2px 2px rgb(8, 8, 8);
     }
-    
+
     .tres {
-        text-align: justify;
+        text-align   : justify;
         width        : 400px;
         margin       : auto;
         margin-top   : 80px;
         margin-bottom: 150px;
-    
-}
-.erradoquatro {
-    position    : absolute;
-    padding-top : 733px;
-    padding-left: 620px;
-}
 
-.dataquatro {
-    margin-left: 30px;
-        margin-top: 590px;
+    }
+
+    .erradoquatro {
+        position    : absolute;
+        padding-top : 733px;
+        padding-left: 620px;
+    }
+
+    .dataquatro {
+        margin-left: 30px;
+        margin-top : 590px;
         font-size  : 22px;
-        color  :    darkgray;
+        color      : darkgray;
         text-shadow: 2px 2px rgb(8, 8, 8);
-}
+    }
 
-.quatro {
-    text-align: justify;
-    width        : 400px;
-    margin       : auto;
-    margin-top   : 80px;
-    margin-bottom: 150px;
-}
+    .quatro {
+        text-align   : justify;
+        width        : 400px;
+        margin       : auto;
+        margin-top   : 80px;
+        margin-bottom: 150px;
+    }
 
-.erradocinco {
-    position    : absolute;
-    padding-top : 935px;
-    padding-left: 620px;
-}
+    .erradocinco {
+        position    : absolute;
+        padding-top : 935px;
+        padding-left: 620px;
+    }
 
-.datacinco {
-    margin-left: 10px;
-    margin-top: 800px;
-    font-size  : 22px;
-    color  :    rgb(255, 255, 255);
-    text-shadow: 2px 2px rgb(8, 8, 8);
-}
+    .datacinco {
+        margin-left: 10px;
+        margin-top : 800px;
+        font-size  : 22px;
+        color      : rgb(255, 255, 255);
+        text-shadow: 2px 2px rgb(8, 8, 8);
+    }
 
-.cinco {
-    text-align: justify;
-    width        : 400px;
-    margin       : auto;
-    margin-top   : 80px;
-    margin-bottom: 150px;
-
-
+    .cinco {
+        text-align   : justify;
+        width        : 400px;
+        margin       : auto;
+        margin-top   : 80px;
+        margin-bottom: 150px;
 
 
-}
+
+
+    }
+
+    .mainsucesso {
+        max-width            : 100%;
+        background-color     : #292828;
+        background           : linear-gradient(rgba(54, 53, 53, 0.90), rgba(0, 0, 0, .90)100%), url(assets/sucesso03.jpg);
+        background-size      : cover;
+        background-repeat    : repeat;
+        background-attachment: fixed;
+        display              : block;
+        height               : 2300px;
+    }
+
+
+    .pilaresSucesso {
+        display    : block;
+        color      : #990300;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+        font-size  : 20px;
+
+        margin-top  : 20px;
+        margin-right: 70px;
+    }
+
+    .pilaresSucesso h2 {
+        text-align   : justify;
+        text-align   : center;
+        padding-left : 80px;
+        margin-bottom: 20px;
+        margin-top   : -30px;
+        padding-top  : 30px;
+
+    }
+
+    .pilaresSucesso p {
+
+        text-align : justify;
+        color      : darkgray;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+        font-size  : 16px;
+        padding-top: 60px;
+
+    }
+
+    .quadradodospilares {
+        display: block;
+
+
+    }
+
+
+    .maindiasdoano {
+
+
+
+
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+        min-height    : 20vh;
+
+    }
+
+    .maindiasdoano h1 {
+        padding-bottom: 50px;
+        padding-top   : 10px;
+        margin-bottom : -50px;
+        font-weight   : normal;
+        font-size     : 2rem;
+        margin-top    : 0rem;
+    }
+
+    .countdown-container {
+
+        display        : flex;
+        flex-wrap      : wrap;
+        justify-content: center;
+    }
+
+    .text {
+
+        font-weight: bold;
+        font-size  : 3rem;
+        line-height: 1;
+        margin     : 0rem 1rem;
+    }
+
+    .countdown-el {
+
+        text-align: center;
+    }
+
+    .countdown-el span {
+        margin-left: 75px;
+        font-size  : 0.9rem;
+    }
+
+
 
 
 }

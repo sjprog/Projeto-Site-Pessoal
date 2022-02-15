@@ -741,7 +741,7 @@ span {
         position: relative;
         display  : block;
         max-width: 100%;
-        height: 1900px;
+        height: 1650px;
         margin   : auto;
         background-color: #0a0a0a;
         padding         : 10px;
@@ -802,7 +802,8 @@ span {
         height          : 50px;
         border-radius   : 25px;
         font-size       : 16px;
-        margin-left     : 280px;
+        margin-top: 20px;
+        margin-left     : 120px;
         background-color: #4D0100;
         color           : #e6e3e3;
         text-shadow     : 1px 1px 1px rgb(0, 0, 0);
@@ -810,6 +811,68 @@ span {
     }
 
 
+    .mainHabilidades {
+        height: 1150px;
+        position: relative;
+        display              : flex;
+        background           : linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .70)100%), url(assets/img02.jpg);
+        background-size      : cover;
+        background-repeat    : repeat;
+        background-attachment: fixed;
+    }
+    
+    .habilidades {
+        max-width: 100%;
+        position: absolute;
+        padding-top: 100px;
+        display    : inline-block;
+        font-size  : 20px;
+        margin     : auto;
+        color      : #990300;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+    }
+    
+    .habilidades h2 {
+        margin-left: 150px;
+        margin-bottom: 20px;
+        margin-top   : -30px;
+    }
+    
+    .habilidades p {
+        text-align : justify;
+      padding-right: 20px;
+        margin-top:30px ;
+        color      : darkgray;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+        font-size  : 18px;
+        padding-top: 20px;
+    
+    }
+    
+    .quadrado {
+        max-width: 100%;
+        margin         : auto;
+        margin-top     : 40px;
+        flex-wrap      : wrap;
+        box-sizing     : border-box;
+        display        : flex;
+        width          : 1006px;
+        height         : 500px;
+        /* border-style: solid; */
+    }
+    
+    .quadradoHabilidades {
+        max-width: 100%;
+        padding      : 20px;
+        flex-wrap    : wrap;
+        width        : 170px;
+        height       : 170px;
+        margin       : 10px;
+        margin-left  : 40px;
+        border-radius: 8%;
+    
+    
+    }
 
 
 }

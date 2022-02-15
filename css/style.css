@@ -663,22 +663,23 @@ span {
 /* animacoes */
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 412) {
 
 
     * {
-        max-width: 100%;
+        
     }
 
     body {
-        max-width: 100%;
+        
     }
 
     header {
 
-        max-width: 100%;
-        width    : 600px;
-        height   : 600px;
+     
+        width    : 413px;
+        height: 100px;
+        
     }
 
     .seta {

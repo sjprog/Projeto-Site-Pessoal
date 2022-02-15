@@ -666,9 +666,16 @@ span {
 @media screen and (max-width: 600px) {
 
 
+    * {
+        max-width: 100%;
+    }
+
+    body {
+        max-width: 100%;
+    }
 
     header {
-      
+
         max-width: 100%;
         width    : 600px;
         height   : 600px;
@@ -697,7 +704,7 @@ span {
     }
 
     .nomeInicio {
-      position: absolute;
+        position   : absolute;
         margin-left: 10px;
         font-size  : 30px;
         color      : #990300;
@@ -706,30 +713,101 @@ span {
 
     .profissao {
         padding-left: 70px;
-       padding-top: 260px;
-        margin: auto;
-        font-size  : 23px;
-        text-shadow: 3px 3px rgb(0, 0, 0);
-        color      : #e6e3e3;
+        padding-top : 260px;
+        margin      : auto;
+        font-size   : 23px;
+        text-shadow : 3px 3px rgb(0, 0, 0);
+        color       : #e6e3e3;
     }
 
     .iconesprincipal {
-        max-width: 100%;
-        margin-top: -250px;
-        float: right;
-       margin-right: 45px;
-       
+        max-width   : 100%;
+        margin-top  : -250px;
+        float       : right;
+        margin-right: 45px;
+
 
     }
 
     .icones {
-        max-width: 100%;
+        max-width   : 100%;
         padding     : 10px;
         padding-left: 55px;
 
 
     }
 
+    main {
+        position: relative;
+        display  : block;
+        max-width: 100%;
+        height: 1900px;
+        margin   : auto;
+        background-color: #0a0a0a;
+        padding         : 10px;
+        text-align      : center;
+        display         : inline-flex;
+    }
+
+    .fotoPessoal {
+        display   : block;
+        margin    : 50px;
+        width     : 372px;
+        height    : 558px;
+        box-shadow: 15px 15px 20px 1px #990300;
+    }
+
+    .descricao {
+        display    : block;
+        position: absolute;
+      
+       
+     
+    }
+
+    .descricao p,
+    .descricao h2 {
+       
+        margin-left: 100px;
+        
+        text-align : justify;
+    }
+
+    .descricao h2 {
+       
+        margin-top: 650px;
+        padding-bottom: 20px;
+        font-size     : 30px;
+        color         : #990300;
+        text-shadow   : 1px 1px rgb(61, 61, 61);
+    }
+
+    .descricao p {
+        margin-left: 50px;
+        width: 590px;
+        color      : darkgray;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+        font-size  : 16px;
+    }
+
+    span {
+        font-size    : large;
+        padding-right: 70px;
+        color        : rgb(241, 241, 241);
+        text-shadow  : 1px 1px rgb(93, 93, 93);
+    }
+
+    .curriculo {
+        width           : 140px;
+        height          : 50px;
+        border-radius   : 25px;
+        font-size       : 16px;
+        margin-left     : 280px;
+        background-color: #4D0100;
+        color           : #e6e3e3;
+        text-shadow     : 1px 1px 1px rgb(0, 0, 0);
+        font-weight     : bold;
+    }
 
 
 

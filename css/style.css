@@ -875,4 +875,135 @@ span {
     }
 
 
+    .mainexperiencias {
+
+        max-width: 100%;
+        display:block;
+        height : 1900px;
+    }
+    
+    .experiencias {
+        margin-bottom: 40px;
+        margin-left: 125px;
+        margin-top : 20px;
+        font-size  : 20px;
+        color      : #990300;
+        text-shadow: 1px 1px rgb(61, 61, 61);
+    }
+    
+    .trabalho1 {
+        text-align: justify;
+        width        : 400px;
+        margin       : auto;
+        margin-top   : 80px;
+        margin-bottom: 110px;
+    }
+    
+    .certoum {
+        position    : absolute;
+        padding-top : 85px;
+       
+    }
+    
+    .dataum {
+        
+        margin-left: 100px;
+        margin-top: 130px;
+        font-size  : 22px;
+        color      : #ffffff;
+        text-shadow: 2px 2px rgb(8, 8, 8);
+    }
+
+    .certodois {
+        position    : absolute;
+        padding-top : 235px;
+        padding-left: 620px;
+    }
+    
+    .datadois {
+        margin-left: 60px;
+        margin-top: 390px;
+        font-size  : 22px;
+        color  :    darkgray;
+        text-shadow: 2px 2px rgb(8, 8, 8);
+    }
+    
+    
+    .dois {
+        text-align: justify;
+        width        : 400px;
+        margin       : auto;
+        margin-top   : 80px;
+        margin-bottom: 150px;
+    
+    }
+
+    .erradotres {
+        position    : absolute;
+        padding-top : 485px;
+        padding-left: 620px;
+    }
+    
+    .datatres {
+        margin-left: 10px;
+        margin-top: 520px;
+        font-size  : 22px;
+        color  :    rgb(255, 255, 255);
+        text-shadow: 2px 2px rgb(8, 8, 8);
+    }
+    
+    .tres {
+        text-align: justify;
+        width        : 400px;
+        margin       : auto;
+        margin-top   : 80px;
+        margin-bottom: 150px;
+    
+}
+.erradoquatro {
+    position    : absolute;
+    padding-top : 733px;
+    padding-left: 620px;
+}
+
+.dataquatro {
+    margin-left: 30px;
+        margin-top: 590px;
+        font-size  : 22px;
+        color  :    darkgray;
+        text-shadow: 2px 2px rgb(8, 8, 8);
+}
+
+.quatro {
+    text-align: justify;
+    width        : 400px;
+    margin       : auto;
+    margin-top   : 80px;
+    margin-bottom: 150px;
+}
+
+.erradocinco {
+    position    : absolute;
+    padding-top : 935px;
+    padding-left: 620px;
+}
+
+.datacinco {
+    margin-left: 10px;
+    margin-top: 800px;
+    font-size  : 22px;
+    color  :    rgb(255, 255, 255);
+    text-shadow: 2px 2px rgb(8, 8, 8);
+}
+
+.cinco {
+    text-align: justify;
+    width        : 400px;
+    margin       : auto;
+    margin-top   : 80px;
+    margin-bottom: 150px;
+
+
+
+
 }

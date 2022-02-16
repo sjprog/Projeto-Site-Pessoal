@@ -660,79 +660,82 @@ span {
 /* animacoes */
 
 
-@media screen and (max-width: 412) {
 
 
-    * {
 
-        margin    : auto;
-        padding   : 0px;
-        box-sizing: border-box;
-    }
-    
-    body {
-        background-color: #000000;
-        max-width: 412px;
-        font-family     : Arial, Helvetica, sans-serif;
-        color           : white;
-    }
-    
+
+
+
+
+
+
+
+@media screen and (max-width: 412px) {
+   
+
+}
+
+ body{
+     max-width: 412px;
+     box-sizing: border-box;
+     
+ }    
     
     
     
     header {   
-        height           : 2500px;
-        width            : 412px;
-        background       : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%), url(../css/assets/fundo04.jpg);
-        background-repeat: no-repeat;
-        background-size  : cover;
-    
+        height           : 914px;
+        width            : 100%;
     }
     
     .seta {
-        width       : 70px;
-        float       : right;
-        margin-right: 30px;
-        margin-top  : 600px;
-        position    : sticky;
-        top         : 0;
-        z-index     : 1;
-    }
-    
-    .links {
+        width       : 60px;        
+        margin-right: 20px;
+        margin-top  : 800px;
        
-        
-        padding     : 30px;
+    }
+    .links {
+       margin-top: 480px;
+       margin-right: 22px;        
+        padding     : 10px;
     }
     
     .links>a {
+        display:flex;
+        align-content: center;
+        justify-content: center;
         text-decoration: none;
-        padding        : 20px;
+        padding        : 16px;
         color          : white;
-        font-size      : 10px;
+        font-size      : 25px;
         text-shadow    : 2px 2px rgb(0, 0, 0);
     }
 
     .nomeInicio {
+        text-align: center;
+        margin-top: -130px;
         position   : absolute;
-        margin-left: 10px;
-        font-size  : 10px;
+        margin-left: 5px;
+        font-size  : 30px;
         color      : #990300;
         text-shadow: 3px 3px rgb(0, 0, 0);
     }
 
     .profissao {
+        padding-right: 60px;
+        position: absolute;
+        text-align: center;
         padding-left: 70px;
-        padding-top : 260px;
+        padding-top : 230px;
         margin      : auto;
-        font-size   : 23px;
+        font-size   : 28px;
         text-shadow : 3px 3px rgb(0, 0, 0);
         color       : #e6e3e3;
     }
 
     .iconesprincipal {
         max-width   : 100%;
-        margin-top  : -250px;
+        margin-top  : -500px;
         float       : right;
         margin-right: 45px;
 
@@ -741,8 +744,8 @@ span {
 
     .icones {
         max-width   : 100%;
-        padding     : 10px;
-        padding-left: 55px;
+      
+        padding-left: 25px;
 
 
     }
@@ -751,7 +754,7 @@ span {
         position        : relative;
         display         : block;
         max-width       : 100%;
-        height          : 1650px;
+        height          : 1480px;
         margin          : auto;
         background-color: #0a0a0a;
         padding         : 10px;
@@ -761,9 +764,9 @@ span {
 
     .fotoPessoal {
         display   : block;
-        margin    : 50px;
-        width     : 372px;
-        height    : 558px;
+        margin    : 30px;
+        width     : 330px;
+        height    : 450px;
         box-shadow: 15px 15px 20px 1px #990300;
     }
 
@@ -775,26 +778,21 @@ span {
 
     }
 
-    .descricao p,
-    .descricao h2 {
-
-        margin-left: 100px;
-
-        text-align: justify;
-    }
 
     .descricao h2 {
-
-        margin-top    : 650px;
-        padding-bottom: 20px;
+      text-align: center;
+        margin-top    : 550px;
+        padding-bottom: 50px;
         font-size     : 30px;
         color         : #990300;
         text-shadow   : 1px 1px rgb(61, 61, 61);
     }
 
     .descricao p {
-        margin-left: 50px;
-        width      : 590px;
+      margin-left: -30px;
+        text-align: justify;
+     margin-right:-90px;
+        max-width      : 412px;
         color      : darkgray;
         text-shadow: 1px 1px rgb(0, 0, 0);
         font-size  : 16px;
@@ -812,8 +810,8 @@ span {
         height          : 50px;
         border-radius   : 25px;
         font-size       : 16px;
-        margin-top      : 20px;
-        margin-left     : 120px;
+        margin-top      : 40px;
+        margin-left     : 80px;
         background-color: #4D0100;
         color           : #e6e3e3;
         text-shadow     : 1px 1px 1px rgb(0, 0, 0);
@@ -822,7 +820,7 @@ span {
 
 
     .mainHabilidades {
-        height               : 1150px;
+        height               : 1850px;
         position             : relative;
         display              : flex;
         background           : linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .70)100%), url(assets/img02.jpg);
@@ -832,46 +830,49 @@ span {
     }
 
     .habilidades {
-        max-width  : 100%;
+        max-width  : 412px;
         position   : absolute;
         padding-top: 100px;
         display    : inline-block;
         font-size  : 20px;
-        margin     : auto;
+        margin: auto;
         color      : #990300;
         text-shadow: 1px 1px rgb(0, 0, 0);
     }
 
     .habilidades h2 {
-        margin-left  : 150px;
+        max-width  : 412px;
+        margin-left  : 120px;
         margin-bottom: 20px;
         margin-top   : -30px;
     }
 
     .habilidades p {
+        max-width  : 412px;
         text-align   : justify;
-        padding-right: 20px;
+       padding-right: 20px;
         margin-top   : 30px;
         color        : darkgray;
         text-shadow  : 1px 1px rgb(0, 0, 0);
-        font-size    : 18px;
+        font-size    : 16px;
         padding-top  : 20px;
 
     }
 
     .quadrado {
+        
         max-width      : 100%;
-        margin         : auto;
+        margin-left: 80px;
         margin-top     : 40px;
         flex-wrap      : wrap;
         box-sizing     : border-box;
         display        : flex;
-        width          : 1006px;
+        width          : 412px;
         height         : 500px;
-        /* border-style: solid; */
+      
+    
     }
-
-    .quadradoHabilidades {
+    .quadradoHabilidades{
         max-width    : 100%;
         padding      : 20px;
         flex-wrap    : wrap;
@@ -1114,7 +1115,6 @@ span {
         font-size  : 0.9rem;
     }
 
+   
 
 
-
-}

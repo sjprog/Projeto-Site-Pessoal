@@ -820,6 +820,7 @@ span {
 
 
     .mainHabilidades {
+        max-width: 412px;
         height               : 1850px;
         position             : relative;
         display              : flex;
@@ -827,6 +828,7 @@ span {
         background-size      : cover;
         background-repeat    : repeat;
         background-attachment: fixed;
+     
     }
 
     .habilidades {
@@ -848,9 +850,9 @@ span {
     }
 
     .habilidades p {
-        max-width  : 412px;
-        text-align   : justify;
-       padding-right: 20px;
+        max-width  : 380px;
+        text-align   : center;
+     
         margin-top   : 30px;
         color        : darkgray;
         text-shadow  : 1px 1px rgb(0, 0, 0);
@@ -859,27 +861,26 @@ span {
 
     }
 
-    .quadrado {
-        
-        max-width      : 100%;
-        margin-left: 80px;
+    .quadrado {        
         margin-top     : 40px;
         flex-wrap      : wrap;
         box-sizing     : border-box;
         display        : flex;
-        width          : 412px;
+        width          : 380px;
         height         : 500px;
+        padding:-10px;
+       
       
     
     }
     .quadradoHabilidades{
-        max-width    : 100%;
+      
         padding      : 20px;
         flex-wrap    : wrap;
         width        : 170px;
         height       : 170px;
         margin       : 10px;
-        margin-left  : 40px;
+        margin-left  : 115px;
         border-radius: 8%;
 
 
@@ -888,23 +889,23 @@ span {
 
     .mainexperiencias {
 
-        max-width: 100%;
+        max-width: 412px;
         display  : block;
-        height   : 1900px;
+        height   : 2210px;
     }
 
     .experiencias {
-        margin-bottom: 40px;
-        margin-left  : 125px;
-        margin-top   : 20px;
+        margin-bottom: 60px;
+        margin-left  : 90px;
+        margin-top   : 40px;
         font-size    : 20px;
         color        : #990300;
         text-shadow  : 1px 1px rgb(61, 61, 61);
     }
 
     .trabalho1 {
-        text-align   : justify;
-        width        : 400px;
+        text-align   : center;
+        width        : 380px;
         margin       : auto;
         margin-top   : 80px;
         margin-bottom: 110px;
@@ -912,14 +913,15 @@ span {
 
     .certoum {
         position   : absolute;
-        padding-top: 85px;
+        padding-top : 285px;
+        padding-left: 180px;
 
     }
 
     .dataum {
 
-        margin-left: 100px;
-        margin-top : 130px;
+        margin-left: 70px;
+        margin-top : 250px;
         font-size  : 22px;
         color      : #ffffff;
         text-shadow: 2px 2px rgb(8, 8, 8);
@@ -927,13 +929,13 @@ span {
 
     .certodois {
         position    : absolute;
-        padding-top : 235px;
-        padding-left: 620px;
+        padding-top : 730px;
+        padding-left: 180px;
     }
 
     .datadois {
-        margin-left: 60px;
-        margin-top : 390px;
+        margin-left: 20px;
+        margin-top : 540px;
         font-size  : 22px;
         color      : darkgray;
         text-shadow: 2px 2px rgb(8, 8, 8);
@@ -941,78 +943,78 @@ span {
 
 
     .dois {
-        text-align   : justify;
-        width        : 400px;
+        text-align   : center;
+       width        : 380px;
         margin       : auto;
-        margin-top   : 80px;
+        margin-top   : 230px;
         margin-bottom: 150px;
 
     }
 
     .erradotres {
         position    : absolute;
-        padding-top : 485px;
-        padding-left: 620px;
+        padding-top : 1190px;
+        padding-left: 180px;
     }
 
     .datatres {
-        margin-left: 10px;
-        margin-top : 520px;
+        margin-left: 2px;
+        margin-top : 750px;
         font-size  : 22px;
         color      : rgb(255, 255, 255);
         text-shadow: 2px 2px rgb(8, 8, 8);
     }
 
     .tres {
-        text-align   : justify;
-        width        : 400px;
+          text-align   : center;
+       width        : 380px;
         margin       : auto;
-        margin-top   : 80px;
+        margin-top   : 230px;
         margin-bottom: 150px;
 
     }
 
     .erradoquatro {
         position    : absolute;
-        padding-top : 733px;
-        padding-left: 620px;
+       padding-top : 1540px;
+        padding-left: 180px;
     }
 
     .dataquatro {
-        margin-left: 30px;
-        margin-top : 590px;
+        margin-left: 1px;
+        margin-top : 850px;
         font-size  : 22px;
         color      : darkgray;
         text-shadow: 2px 2px rgb(8, 8, 8);
     }
 
     .quatro {
-        text-align   : justify;
-        width        : 400px;
+         text-align   : center;
+       width        : 380px;
         margin       : auto;
-        margin-top   : 80px;
+        margin-top   : 180px;
         margin-bottom: 150px;
     }
 
     .erradocinco {
         position    : absolute;
-        padding-top : 935px;
-        padding-left: 620px;
+        padding-top : 1980px;
+        padding-left: 180px;
     }
 
     .datacinco {
-        margin-left: 10px;
-        margin-top : 800px;
+        margin-left: 1px;
+        margin-top : 1080px;
         font-size  : 22px;
         color      : rgb(255, 255, 255);
         text-shadow: 2px 2px rgb(8, 8, 8);
     }
 
     .cinco {
-        text-align   : justify;
-        width        : 400px;
+         text-align   : center;
+       width        : 380px;
         margin       : auto;
-        margin-top   : 80px;
+        margin-top   : 180px;
         margin-bottom: 150px;
 
 
@@ -1021,7 +1023,7 @@ span {
     }
 
     .mainsucesso {
-        max-width            : 100%;
+        max-width            : 412PX;
         background-color     : #292828;
         background           : linear-gradient(rgba(54, 53, 53, 0.90), rgba(0, 0, 0, .90)100%), url(assets/sucesso03.jpg);
         background-size      : cover;
@@ -1043,9 +1045,9 @@ span {
     }
 
     .pilaresSucesso h2 {
-        text-align   : justify;
+      
         text-align   : center;
-        padding-left : 80px;
+        padding-left : 45px;
         margin-bottom: 20px;
         margin-top   : -30px;
         padding-top  : 30px;
@@ -1053,12 +1055,13 @@ span {
     }
 
     .pilaresSucesso p {
-
-        text-align : justify;
+         width: 380px;
+        text-align : center;
         color      : darkgray;
         text-shadow: 1px 1px rgb(0, 0, 0);
         font-size  : 16px;
         padding-top: 60px;
+        margin-left: -70px;
 
     }
 
@@ -1072,26 +1075,30 @@ span {
     .maindiasdoano {
 
 
-
-
+        
+        width: 412px;
+  max-height: 400px;
         display       : flex;
-        flex-direction: column;
+      
+        flex-direction:row;
         align-items   : center;
-        min-height    : 20vh;
+        min-height    : 10vh;
 
     }
 
     .maindiasdoano h1 {
-        padding-bottom: 50px;
-        padding-top   : 10px;
-        margin-bottom : -50px;
+        padding-left: 30px;
+        padding-bottom: 30px;
+        padding-top   : 5px;
+        margin-bottom : -30px;
         font-weight   : normal;
-        font-size     : 2rem;
+        font-size     : 1.8rem;
         margin-top    : 0rem;
     }
 
     .countdown-container {
-
+        padding-top:20px;
+        padding-bottom: 15px;
         display        : flex;
         flex-wrap      : wrap;
         justify-content: center;
@@ -1100,18 +1107,20 @@ span {
     .text {
 
         font-weight: bold;
-        font-size  : 3rem;
+        font-size  : 2.5rem;
         line-height: 1;
         margin     : 0rem 1rem;
     }
 
     .countdown-el {
+        padding:-10px;
+       
 
         text-align: center;
     }
 
     .countdown-el span {
-        margin-left: 75px;
+        margin-left: 50px;
         font-size  : 0.9rem;
     }
 

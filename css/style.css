@@ -1,13 +1,21 @@
 @import url('https://fonts.googleapis.com/css2? family = Poppins: ital, wght @ 1,300; 1,400; 1,500 & display = swap');
 
 
- 
+
 
 @keyframes imagem {
-    0% {background-image: url(assets/fundo02.1.jpg);}
-    50%{background-image: url(assets/fundo04.1.jpg);}
-    100% {background-image: url(assets/fundo04.jpg);}
-    
+    0% {
+        background-image: url(assets/fundo02.1.jpg);
+    }
+
+    50% {
+        background-image: url(assets/fundo04.1.jpg);
+    }
+
+    100% {
+        background-image: url(assets/fundo04.jpg);
+    }
+
 }
 
 
@@ -23,34 +31,31 @@
 }
 
 * {
-    
+
     margin    : auto;
     padding   : 0px;
     box-sizing: border-box;
 }
 
 body {
-  background-color: #000000;
-    max-width  : 1280px;
-    font-family: Arial, Helvetica, sans-serif;
-    color      : white;
+    background-color: #000000;
+    max-width       : 1280px;
+    font-family     : Arial, Helvetica, sans-serif;
+    color           : white;
 }
 
 
 
 
-header {  
-
+header {
     animation-name: imagem;
     animation-duration: 2s;
-
-
-    height          : 800px;
+    height           : 800px;
     width            : 1280px;
     background       : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%), url(../css/assets/fundo04.jpg);
     background-repeat: no-repeat;
     background-size  : cover;
-    
+
 }
 
 .seta {
@@ -78,7 +83,7 @@ header {
 }
 
 .nomeInicio {
-    
+
     margin-left: 290px;
     padding-top: 180px;
     font-size  : 45px;
@@ -94,17 +99,17 @@ header {
 }
 
 .iconesprincipal {
-    display: inline-flex;
+    display      : inline-flex;
     align-content: center;
-     float: right;
-     margin-right: 335px;
-    
+    float        : right;
+    margin-right : 335px;
+
 }
 
 .icones {
-    padding: 10px;
-    padding-left: 55px;  
-   
+    padding     : 10px;
+    padding-left: 55px;
+
 
 }
 
@@ -506,8 +511,8 @@ span {
 }
 
 .pilaresSucesso h2 {
-    text-align: justify;
-    text-align: center;
+    text-align   : justify;
+    text-align   : center;
     float        : left;
     margin-bottom: 20px;
     margin-top   : -30px;
@@ -520,13 +525,13 @@ span {
     text-shadow: 1px 1px rgb(0, 0, 0);
     font-size  : 16px;
     padding-top: 60px;
-    
+
 }
 
 .quadradodospilares {
     display: flex;
-    
-    
+
+
 }
 
 .disciplina {
@@ -537,7 +542,7 @@ span {
     height                 : 600px;
     margin                 : auto;
     margin-top             : 30px;
-    
+
 }
 
 .disciplina02 {
@@ -547,7 +552,7 @@ span {
     width      : 100%;
     height     : 100px;
     text-shadow: 2px 2px rgb(66, 66, 66);
-    
+
 
 }
 
@@ -560,7 +565,7 @@ span {
     height    : 600px;
     margin    : auto;
     margin-top: 30px;
-    
+
 }
 
 .humildade02 {
@@ -570,8 +575,8 @@ span {
     width      : 100%;
     height     : 100px;
     text-shadow: 2px 2px rgb(66, 66, 66);
-   
-    
+
+
 }
 
 .autoresponsabilidade {
@@ -594,11 +599,12 @@ span {
     text-shadow: 2px 2px rgb(66, 66, 66);
 
 }
-.paragrafodospilares{
-    text-align: justify;
-    text-align: center;
-    font-size: 18px;
-    padding: 16px;
+
+.paragrafodospilares {
+    text-align : justify;
+    text-align : center;
+    font-size  : 18px;
+    padding    : 16px;
     text-shadow: 2px 2px rgb(0, 0, 0);
     color      : darkgray;
 }
@@ -606,48 +612,509 @@ span {
 /* contagem do tempo */
 
 .maindiasdoano {
-    
-    
+
+
     max-height: 90px;
-      
+
     display       : flex;
     flex-direction: column;
     align-items   : center;
     min-height    : 50vh;
 
 }
-.maindiasdoano h1{
-    padding-top: 100px;
-    margin-bottom: -50px;
-    font-weight: normal;
-    font-size: 3rem;
-    margin-top: 0rem;
-  }
-  
-  .countdown-container {
-      
-    display: flex;
-    flex-wrap: wrap;
+
+.maindiasdoano h1 {
+    padding-bottom: 50px;
+    padding-top   : 10px;
+    margin-bottom : -50px;
+    font-weight   : normal;
+    font-size     : 3rem;
+    margin-top    : 0rem;
+}
+
+.countdown-container {
+
+    display        : flex;
+    flex-wrap      : wrap;
     justify-content: center;
-  }
-  
-  .text {
-      
+}
+
+.text {
+
     font-weight: bold;
-    font-size: 8rem;
+    font-size  : 8rem;
     line-height: 1;
-    margin: 0rem 2rem;
-  }
-  
-  .countdown-el {
-     
+    margin     : 0rem 2rem;
+}
+
+.countdown-el {
+
     text-align: center;
-  }
-  
-  .countdown-el span {
-      
+}
+
+.countdown-el span {
+
     font-size: 1.0rem;
 }
 
 /* animacoes */
 
+
+@media screen and (max-width: 412) {
+
+
+    * {
+
+        margin    : auto;
+        padding   : 0px;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #000000;
+        max-width: 412px;
+        font-family     : Arial, Helvetica, sans-serif;
+        color           : white;
+    }
+    
+    
+    
+    
+    header {   
+        height           : 2500px;
+        width            : 412px;
+        background       : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%), url(../css/assets/fundo04.jpg);
+        background-repeat: no-repeat;
+        background-size  : cover;
+    
+    }
+    
+    .seta {
+        width       : 70px;
+        float       : right;
+        margin-right: 30px;
+        margin-top  : 600px;
+        position    : sticky;
+        top         : 0;
+        z-index     : 1;
+    }
+    
+    .links {
+       
+        
+        padding     : 30px;
+    }
+    
+    .links>a {
+        text-decoration: none;
+        padding        : 20px;
+        color          : white;
+        font-size      : 10px;
+        text-shadow    : 2px 2px rgb(0, 0, 0);
+    }
+
+    .nomeInicio {
+        position   : absolute;
+        margin-left: 10px;
+        font-size  : 10px;
+        color      : #990300;
+        text-shadow: 3px 3px rgb(0, 0, 0);
+    }
+
+    .profissao {
+        padding-left: 70px;
+        padding-top : 260px;
+        margin      : auto;
+        font-size   : 23px;
+        text-shadow : 3px 3px rgb(0, 0, 0);
+        color       : #e6e3e3;
+    }
+
+    .iconesprincipal {
+        max-width   : 100%;
+        margin-top  : -250px;
+        float       : right;
+        margin-right: 45px;
+
+
+    }
+
+    .icones {
+        max-width   : 100%;
+        padding     : 10px;
+        padding-left: 55px;
+
+
+    }
+
+    main {
+        position        : relative;
+        display         : block;
+        max-width       : 100%;
+        height          : 1650px;
+        margin          : auto;
+        background-color: #0a0a0a;
+        padding         : 10px;
+        text-align      : center;
+        display         : inline-flex;
+    }
+
+    .fotoPessoal {
+        display   : block;
+        margin    : 50px;
+        width     : 372px;
+        height    : 558px;
+        box-shadow: 15px 15px 20px 1px #990300;
+    }
+
+    .descricao {
+        display : block;
+        position: absolute;
+
+
+
+    }
+
+    .descricao p,
+    .descricao h2 {
+
+        margin-left: 100px;
+
+        text-align: justify;
+    }
+
+    .descricao h2 {
+
+        margin-top    : 650px;
+        padding-bottom: 20px;
+        font-size     : 30px;
+        color         : #990300;
+        text-shadow   : 1px 1px rgb(61, 61, 61);
+    }
+
+    .descricao p {
+        margin-left: 50px;
+        width      : 590px;
+        color      : darkgray;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+        font-size  : 16px;
+    }
+
+    span {
+        font-size    : large;
+        padding-right: 70px;
+        color        : rgb(241, 241, 241);
+        text-shadow  : 1px 1px rgb(93, 93, 93);
+    }
+
+    .curriculo {
+        width           : 140px;
+        height          : 50px;
+        border-radius   : 25px;
+        font-size       : 16px;
+        margin-top      : 20px;
+        margin-left     : 120px;
+        background-color: #4D0100;
+        color           : #e6e3e3;
+        text-shadow     : 1px 1px 1px rgb(0, 0, 0);
+        font-weight     : bold;
+    }
+
+
+    .mainHabilidades {
+        height               : 1150px;
+        position             : relative;
+        display              : flex;
+        background           : linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .70)100%), url(assets/img02.jpg);
+        background-size      : cover;
+        background-repeat    : repeat;
+        background-attachment: fixed;
+    }
+
+    .habilidades {
+        max-width  : 100%;
+        position   : absolute;
+        padding-top: 100px;
+        display    : inline-block;
+        font-size  : 20px;
+        margin     : auto;
+        color      : #990300;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+    }
+
+    .habilidades h2 {
+        margin-left  : 150px;
+        margin-bottom: 20px;
+        margin-top   : -30px;
+    }
+
+    .habilidades p {
+        text-align   : justify;
+        padding-right: 20px;
+        margin-top   : 30px;
+        color        : darkgray;
+        text-shadow  : 1px 1px rgb(0, 0, 0);
+        font-size    : 18px;
+        padding-top  : 20px;
+
+    }
+
+    .quadrado {
+        max-width      : 100%;
+        margin         : auto;
+        margin-top     : 40px;
+        flex-wrap      : wrap;
+        box-sizing     : border-box;
+        display        : flex;
+        width          : 1006px;
+        height         : 500px;
+        /* border-style: solid; */
+    }
+
+    .quadradoHabilidades {
+        max-width    : 100%;
+        padding      : 20px;
+        flex-wrap    : wrap;
+        width        : 170px;
+        height       : 170px;
+        margin       : 10px;
+        margin-left  : 40px;
+        border-radius: 8%;
+
+
+    }
+
+
+    .mainexperiencias {
+
+        max-width: 100%;
+        display  : block;
+        height   : 1900px;
+    }
+
+    .experiencias {
+        margin-bottom: 40px;
+        margin-left  : 125px;
+        margin-top   : 20px;
+        font-size    : 20px;
+        color        : #990300;
+        text-shadow  : 1px 1px rgb(61, 61, 61);
+    }
+
+    .trabalho1 {
+        text-align   : justify;
+        width        : 400px;
+        margin       : auto;
+        margin-top   : 80px;
+        margin-bottom: 110px;
+    }
+
+    .certoum {
+        position   : absolute;
+        padding-top: 85px;
+
+    }
+
+    .dataum {
+
+        margin-left: 100px;
+        margin-top : 130px;
+        font-size  : 22px;
+        color      : #ffffff;
+        text-shadow: 2px 2px rgb(8, 8, 8);
+    }
+
+    .certodois {
+        position    : absolute;
+        padding-top : 235px;
+        padding-left: 620px;
+    }
+
+    .datadois {
+        margin-left: 60px;
+        margin-top : 390px;
+        font-size  : 22px;
+        color      : darkgray;
+        text-shadow: 2px 2px rgb(8, 8, 8);
+    }
+
+
+    .dois {
+        text-align   : justify;
+        width        : 400px;
+        margin       : auto;
+        margin-top   : 80px;
+        margin-bottom: 150px;
+
+    }
+
+    .erradotres {
+        position    : absolute;
+        padding-top : 485px;
+        padding-left: 620px;
+    }
+
+    .datatres {
+        margin-left: 10px;
+        margin-top : 520px;
+        font-size  : 22px;
+        color      : rgb(255, 255, 255);
+        text-shadow: 2px 2px rgb(8, 8, 8);
+    }
+
+    .tres {
+        text-align   : justify;
+        width        : 400px;
+        margin       : auto;
+        margin-top   : 80px;
+        margin-bottom: 150px;
+
+    }
+
+    .erradoquatro {
+        position    : absolute;
+        padding-top : 733px;
+        padding-left: 620px;
+    }
+
+    .dataquatro {
+        margin-left: 30px;
+        margin-top : 590px;
+        font-size  : 22px;
+        color      : darkgray;
+        text-shadow: 2px 2px rgb(8, 8, 8);
+    }
+
+    .quatro {
+        text-align   : justify;
+        width        : 400px;
+        margin       : auto;
+        margin-top   : 80px;
+        margin-bottom: 150px;
+    }
+
+    .erradocinco {
+        position    : absolute;
+        padding-top : 935px;
+        padding-left: 620px;
+    }
+
+    .datacinco {
+        margin-left: 10px;
+        margin-top : 800px;
+        font-size  : 22px;
+        color      : rgb(255, 255, 255);
+        text-shadow: 2px 2px rgb(8, 8, 8);
+    }
+
+    .cinco {
+        text-align   : justify;
+        width        : 400px;
+        margin       : auto;
+        margin-top   : 80px;
+        margin-bottom: 150px;
+
+
+
+
+    }
+
+    .mainsucesso {
+        max-width            : 100%;
+        background-color     : #292828;
+        background           : linear-gradient(rgba(54, 53, 53, 0.90), rgba(0, 0, 0, .90)100%), url(assets/sucesso03.jpg);
+        background-size      : cover;
+        background-repeat    : repeat;
+        background-attachment: fixed;
+        display              : block;
+        height               : 2300px;
+    }
+
+
+    .pilaresSucesso {
+        display    : block;
+        color      : #990300;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+        font-size  : 20px;
+
+        margin-top  : 20px;
+        margin-right: 70px;
+    }
+
+    .pilaresSucesso h2 {
+        text-align   : justify;
+        text-align   : center;
+        padding-left : 80px;
+        margin-bottom: 20px;
+        margin-top   : -30px;
+        padding-top  : 30px;
+
+    }
+
+    .pilaresSucesso p {
+
+        text-align : justify;
+        color      : darkgray;
+        text-shadow: 1px 1px rgb(0, 0, 0);
+        font-size  : 16px;
+        padding-top: 60px;
+
+    }
+
+    .quadradodospilares {
+        display: block;
+
+
+    }
+
+
+    .maindiasdoano {
+
+
+
+
+        display       : flex;
+        flex-direction: column;
+        align-items   : center;
+        min-height    : 20vh;
+
+    }
+
+    .maindiasdoano h1 {
+        padding-bottom: 50px;
+        padding-top   : 10px;
+        margin-bottom : -50px;
+        font-weight   : normal;
+        font-size     : 2rem;
+        margin-top    : 0rem;
+    }
+
+    .countdown-container {
+
+        display        : flex;
+        flex-wrap      : wrap;
+        justify-content: center;
+    }
+
+    .text {
+
+        font-weight: bold;
+        font-size  : 3rem;
+        line-height: 1;
+        margin     : 0rem 1rem;
+    }
+
+    .countdown-el {
+
+        text-align: center;
+    }
+
+    .countdown-el span {
+        margin-left: 75px;
+        font-size  : 0.9rem;
+    }
+
+
+
+
+}

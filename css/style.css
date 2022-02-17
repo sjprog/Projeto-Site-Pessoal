@@ -5,10 +5,9 @@
 
 
 @keyframes cornome {
-    0% {color: #000000;}
-    25% {color: #a14848;}
-    50%{color: #ad2a2a;}
-    75%{color:#990300;}    
+    0% {color: #000000;} 
+    30%{color: #a70101;}    
+    70%{color:#7a0907;}
 }
 
 :root {
@@ -62,7 +61,8 @@ header {
 .links {
     float       : right;
     margin-right: -100px;
-    padding     : 30px;
+    padding     : 30px; 
+     
 }
 
 .links>a {
@@ -71,11 +71,15 @@ header {
     color          : white;
     font-size      : 20px;
     text-shadow    : 2px 2px rgb(0, 0, 0);
+  
 }
+
+
 
 .nomeInicio {
 animation-name: cornome;
 animation-duration: 5s;
+
     margin-left: 320px;
     padding-top: 180px;
     font-size  : 45px;
@@ -84,6 +88,8 @@ animation-duration: 5s;
 }
 
 .profissao {
+    transition-property: background-color;
+    transition-duration: 2s;
     margin-left: 370px;
     font-size  : 40px;
     text-shadow: 3px 3px rgb(0, 0, 0);
@@ -99,6 +105,7 @@ animation-duration: 5s;
 }
 
 .icones {
+   
     padding     : 10px;
     padding-left: 55px;
 
@@ -106,15 +113,27 @@ animation-duration: 5s;
 }
 
 main {
-    height          : 750px;
+    height          : 850px;
     width           : 1280px;
     background-color: #0a0a0a;
     padding         : 50px;
     text-align      : center;
     display         : flex;
 }
+.fotoPessoal:hover{
+    border-style: solid;
+    
+    border-right: #990300;
+    border-bottom: #990300;
 
+
+}
 .fotoPessoal {
+   border:10px;
+   border-color: #6b0907b2;
+    transition-property: border;
+    transition-timing-function: ease-in;
+    transition-duration: 100ms, 5s;
     width     : 372px;
     height    : 558px;
     box-shadow: 15px 15px 20px 1px #990300;
@@ -138,7 +157,7 @@ main {
 .descricao h2 {
     padding-top   : 8px;
     padding-bottom: 15px;
-    font-size     : 30px;
+    font-size     : 35px;
     color         : #990300;
     text-shadow   : 1px 1px rgb(61, 61, 61);
 }
@@ -156,7 +175,7 @@ span {
     text-shadow  : 1px 1px rgb(93, 93, 93);
 }
 
-.curriculo {
+.curriculo {    
     width           : 140px;
     height          : 50px;
     border-radius   : 25px;
@@ -166,6 +185,12 @@ span {
     color           : #e6e3e3;
     text-shadow     : 1px 1px 1px rgb(0, 0, 0);
     font-weight     : bold;
+}
+.curriculo:hover{
+    background-color: #8d1313;
+    font-size: 20px;
+    
+   
 }
 
 /* segunda parte */
@@ -187,6 +212,7 @@ span {
 }
 
 .habilidades h2 {
+    font-size: 35px;
     float        : left;
     margin-bottom: 20px;
     margin-top   : -30px;
@@ -196,7 +222,7 @@ span {
     width      : 1000px;
     color      : darkgray;
     text-shadow: 1px 1px rgb(0, 0, 0);
-    font-size  : 16px;
+    font-size  : 19px;
     padding-top: 20px;
 
 }
@@ -333,7 +359,7 @@ span {
     float      : left;
     margin-left: 70px;
     margin-top : 20px;
-    font-size  : 20px;
+    font-size  : 22px;
     color      : #990300;
     text-shadow: 1px 1px rgb(61, 61, 61);
 }
@@ -496,9 +522,9 @@ span {
 
     color       : #990300;
     text-shadow : 1px 1px rgb(0, 0, 0);
-    font-size   : 20px;
+    font-size   : 25px;
     margin-left : 70px;
-    margin-top  : 20px;
+    margin-top  : 13px;
     margin-right: 70px;
 }
 
@@ -507,7 +533,7 @@ span {
     text-align   : center;
     float        : left;
     margin-bottom: 20px;
-    margin-top   : -30px;
+    margin-top   : -40px;
     padding-top  : 30px;
 
 }
@@ -515,7 +541,7 @@ span {
 .pilaresSucesso p {
     color      : darkgray;
     text-shadow: 1px 1px rgb(0, 0, 0);
-    font-size  : 16px;
+    font-size  : 19px;
     padding-top: 60px;
 
 }

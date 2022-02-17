@@ -3,21 +3,13 @@
 
 
 
-@keyframes imagem {
-    0% {
-        background-image: url(assets/fundo02.1.jpg);
-    }
 
-    50% {
-        background-image: url(assets/fundo04.1.jpg);
-    }
-
-    100% {
-        background-image: url(assets/fundo04.jpg);
-    }
-
+@keyframes cornome {
+    0% {color: #000000;}
+    25% {color: #a14848;}
+    50%{color: #ad2a2a;}
+    75%{color:#990300;}    
 }
-
 
 :root {
     --cor01: (#4D0100);
@@ -26,7 +18,7 @@
     --cor01: (#4D1817);
     --cor01: (#990300);
     --cor01: (#042E4D);
-    --cor01: (#004D18);
+    --cor01: (#08f352);
     --cor01: (#4A5700);
 }
 
@@ -48,10 +40,9 @@ body {
 
 
 header {
-    animation-name: imagem;
-    animation-duration: 2s;
+    
     height           : 800px;
-    width            : 1280px;
+    width            : 100%;
     background       : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%), url(../css/assets/fundo04.jpg);
     background-repeat: no-repeat;
     background-size  : cover;
@@ -83,8 +74,9 @@ header {
 }
 
 .nomeInicio {
-
-    margin-left: 290px;
+animation-name: cornome;
+animation-duration: 5s;
+    margin-left: 320px;
     padding-top: 180px;
     font-size  : 45px;
     color      : #990300;
@@ -92,7 +84,7 @@ header {
 }
 
 .profissao {
-    margin-left: 350px;
+    margin-left: 370px;
     font-size  : 40px;
     text-shadow: 3px 3px rgb(0, 0, 0);
     color      : #e6e3e3;
@@ -102,7 +94,7 @@ header {
     display      : inline-flex;
     align-content: center;
     float        : right;
-    margin-right : 335px;
+    margin-right : 315px;
 
 }
 
@@ -154,7 +146,7 @@ main {
 .descricao p {
     color      : darkgray;
     text-shadow: 1px 1px rgb(0, 0, 0);
-    font-size  : 16px;
+    font-size  : 18px;
 }
 
 span {
@@ -673,7 +665,7 @@ span {
 @media screen and (max-width: 412px) {
    
 
-}
+
 
  body{
      max-width: 412px;
@@ -1124,6 +1116,6 @@ span {
         font-size  : 0.9rem;
     }
 
-   
+}
 
 

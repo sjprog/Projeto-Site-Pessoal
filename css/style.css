@@ -42,7 +42,7 @@ header {
     
     height           : 800px;
     width            : 100%;
-    background       : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%), url(../css/assets/fundo04.jpg);
+    background       : linear-gradient(rgba(54, 53, 53, 0.50), rgba(0, 0, 0, .50)100%), url();
     background-repeat: no-repeat;
     background-size  : cover;
 
